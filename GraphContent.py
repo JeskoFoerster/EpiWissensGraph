@@ -139,7 +139,7 @@ class GraphContent:
                                           "https://daringfireball.net/projects/markdown/"
                                           "\n### Zugriff am:\n"
                                           "11. November 2023"
-                                          , "(Gruber, 2044)")
+                                          , "(Gruber, 2004)")
 
         literature_source_example_node = Node("## Anmerkung: \n"
                                               "Dies ist Knoten für Literaturquellen. Hierbei sind folgende "
