@@ -99,7 +99,7 @@ class GraphVisualizer(IGraphVisualizer):
         # Zeichne Knoten
         for node in self.graph.nodes:
             scaled_x, scaled_y = self.scaleOffsetTransformer.get_scaled_coordinates(node)
-            pygame.draw.circle(self.screen, self.node_color, (scaled_x, scaled_y), radius=float(node.radius))
+            pygame.draw.circle(self.screen, color=node.color, center=(scaled_x, scaled_y), radius=float(node.radius))
 
         if self.show_node_labels:
             # Zeichne den Titel der Knoten
