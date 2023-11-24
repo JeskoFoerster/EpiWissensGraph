@@ -26,7 +26,7 @@ class Node:
     """
     image_name = "image_placeholder.png"
 
-    def __init__(self, description, titel, image_name="image_placeholder.png", x=0, y=0):
+    def __init__(self, description, titel, image_name="image_placeholder.png", x=0, y=0, radius=5):
         """
         Initializes a new instance of the Node class.
 
@@ -51,6 +51,7 @@ class Node:
         self.acceleration_x = 0.0
         self.acceleration_y = 0.0
         self.image_name = image_name
+        self.radius = radius
 
     def connect(self, other_node):
         if other_node.uuid not in self.__connected_nodes:
