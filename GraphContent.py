@@ -17,6 +17,7 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 
 from GraphModel.Graph import Graph
 from GraphModel.Node import Node
+from Structured_Knowledge_Graph_Example.SubGraph import SubGraph
 
 # this is the Package "ExampleNode" that I created. I am importing the ExampleNode class from my file.
 from Resources.ExampleNode import ExampleNode
@@ -34,6 +35,7 @@ class GraphContent:
         # I create this note with the values from the ExampleNote class
 
         example_node = Node(example_note_data.EXAMPLE_DESCRIPTION, example_note_data.EXAMPLE_TITLE, example_note_data.IMAGE)
+        SubGraph(example_node, graph)
 
         # example_node.connect()
 

@@ -17,9 +17,9 @@ class SubGraph:
         node_e = Node("Text", "Node E")
 
         node_a.connect(node_b)
-        node_b.connect(node_c)
-        node_c.connect(node_d)
-        node_d.connect(node_e)
+        node_b.connect(node_a)
+        node_c.connect(node_a)
+        node_d.connect(node_a)
         node_e.connect(node_a)
         parent_node.connect(node_a)
 
