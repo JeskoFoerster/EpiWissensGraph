@@ -7,7 +7,7 @@ Test Nils commit 1
 Test Noah
 Test Elias 
 
-Unser Thema "Unternehmen" wird um die Strukt, den  Aufbau sowie
+Unser Thema "Unternehmen" wird um die Struktur, den  Aufbau sowie
 dem nutzen von Informatik behandeln.
 
 Geplant ist bis jetzt;
@@ -16,4 +16,3 @@ anrufen in Unternehmen um nachzufragen ob die
 Praxissemester durchführen würden
 - wie Software in Unternehmen genutzt wird
 - wie Informatiker in nicht Informatik Unternehmen eingesetzt werden
-- 
