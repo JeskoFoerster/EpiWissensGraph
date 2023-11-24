@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb70bd09-cd85-472f-ba0e-2ad5bc3eaf2b" name="Changes" comment="" />
+    <list default="true" id="fb70bd09-cd85-472f-ba0e-2ad5bc3eaf2b" name="Changes" comment="Git ignore update">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,6 +42,7 @@
   <component name="ProjectId" id="2YcBJf1qVnorlZ33NtLQ7Qkg2pY" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="false" id="Update" />
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -49,7 +53,9 @@
     "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/foersterje/PycharmProjects/EpiWissensGraph",
+    "node.js.selected.package.tslint": "(autodetect)",
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
@@ -120,6 +126,7 @@
     <MESSAGE value="init" />
     <MESSAGE value="restructure" />
     <MESSAGE value="test jesko" />
-    <option name="LAST_COMMIT_MESSAGE" value="test jesko" />
+    <MESSAGE value="Git ignore update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Git ignore update" />
   </component>
 </project>
