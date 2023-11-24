@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb70bd09-cd85-472f-ba0e-2ad5bc3eaf2b" name="Changes" comment="" />
+    <list default="true" id="fb70bd09-cd85-472f-ba0e-2ad5bc3eaf2b" name="Changes" comment="Test">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,6 +51,7 @@
     "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/foersterje/PycharmProjects/EpiWissensGraph",
     "settings.editor.selected.configurable": "preferences.keymap"
   }
@@ -120,6 +123,7 @@
     <MESSAGE value="init" />
     <MESSAGE value="restructure" />
     <MESSAGE value="test jesko" />
-    <option name="LAST_COMMIT_MESSAGE" value="test jesko" />
+    <MESSAGE value="Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test" />
   </component>
 </project>
