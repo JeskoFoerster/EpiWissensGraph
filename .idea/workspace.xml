@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb70bd09-cd85-472f-ba0e-2ad5bc3eaf2b" name="Changes" comment="merge elias" />
+    <list default="true" id="fb70bd09-cd85-472f-ba0e-2ad5bc3eaf2b" name="Changes" comment="added zip file">
+      <change afterPath="$PROJECT_DIR$/dependencies.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,11 +18,6 @@
     <option name="BRANCH" value="origin/main" />
   </component>
   <component name="Git.Settings">
-    <option name="PREVIOUS_COMMIT_AUTHORS">
-      <list>
-        <option value="eliasdick &lt;eliasdick0804@gmail.com&gt;" />
-      </list>
-    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="master" />
@@ -41,9 +40,6 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
   <component name="ProjectId" id="2YcBJf1qVnorlZ33NtLQ7Qkg2pY" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="false" id="Update" />
@@ -98,19 +94,22 @@
       <option name="project" value="LOCAL" />
       <updated>1700818923571</updated>
     </task>
-    <task id="LOCAL-00005" summary="merge elias">
-      <option name="closed" value="true" />
-      <created>1700820358822</created>
+    <task id="LOCAL-00005" summary="fix jesko">
+      <created>1700820195260</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1700820358822</updated>
+      <updated>1700820195260</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added zip file">
+      <created>1700820493528</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1700820493528</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -139,8 +138,8 @@
     <MESSAGE value="init" />
     <MESSAGE value="restructure" />
     <MESSAGE value="test jesko" />
-    <MESSAGE value="Hiiii Haiiii hiii" />
-    <MESSAGE value="merge elias" />
-    <option name="LAST_COMMIT_MESSAGE" value="merge elias" />
+    <MESSAGE value="fix jesko" />
+    <MESSAGE value="added zip file" />
+    <option name="LAST_COMMIT_MESSAGE" value="added zip file" />
   </component>
 </project>
