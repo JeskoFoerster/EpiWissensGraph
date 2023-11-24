@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb70bd09-cd85-472f-ba0e-2ad5bc3eaf2b" name="Changes" comment="" />
+    <list default="true" id="fb70bd09-cd85-472f-ba0e-2ad5bc3eaf2b" name="Changes" comment="merge elias" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,6 +49,7 @@
     "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/foersterje/PycharmProjects/EpiWissensGraph",
     "settings.editor.selected.configurable": "preferences.keymap"
   }
@@ -90,7 +91,23 @@
       <option name="project" value="LOCAL" />
       <updated>1700818923571</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="merge elias">
+      <option name="closed" value="true" />
+      <created>1700820311722</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1700820311722</updated>
+    </task>
+    <task id="LOCAL-00006" summary="merge elias">
+      <option name="closed" value="true" />
+      <created>1700820378968</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1700820378968</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -120,6 +137,7 @@
     <MESSAGE value="init" />
     <MESSAGE value="restructure" />
     <MESSAGE value="test jesko" />
-    <option name="LAST_COMMIT_MESSAGE" value="test jesko" />
+    <MESSAGE value="merge elias" />
+    <option name="LAST_COMMIT_MESSAGE" value="merge elias" />
   </component>
 </project>
