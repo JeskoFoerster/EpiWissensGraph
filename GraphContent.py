@@ -201,12 +201,17 @@ class GraphContent:
                                          "859-866"
                                          , "(Dijkstra, 1972)")
 
+        test_node = Node("Test","Test")
+
 
         how_to_node.connect(online_source_example_node)
         how_to_node.connect(literature_source_example_node)
         how_to_node.connect(paper_source_example_node)
+        paper_source_example_node.connect(test_node)
+        literature_source_example_node.connect(test_node)
 
         graph.add_new_node_to_graph(how_to_node)
         graph.add_new_node_to_graph(online_source_example_node)
         graph.add_new_node_to_graph(literature_source_example_node)
         graph.add_new_node_to_graph(paper_source_example_node)
+        graph.add_new_node_to_graph(test_node)
