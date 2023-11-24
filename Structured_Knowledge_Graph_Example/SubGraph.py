@@ -16,12 +16,11 @@ class SubGraph:
         node_d = Node("Text", "Node D")
         node_e = Node("Text", "Node E")
 
-        node_a.connect(node_b)
-        node_b.connect(node_a)
-        node_c.connect(node_a)
-        node_d.connect(node_a)
-        node_e.connect(node_a)
         parent_node.connect(node_a)
+        node_a.connect(node_b)
+        node_a.connect(node_c)
+        node_a.connect(node_d)
+        node_a.connect(node_e)
 
         graph.add_new_node_to_graph(node_a)
         graph.add_new_node_to_graph(node_b)
