@@ -34,10 +34,10 @@ class GraphVisualizer(IGraphVisualizer):
     selectedNodeContainer: SelectedNodeContainer
     graph: Graph
     screen = None
-    edge_color = (0, 0, 0)
+    edge_color = (148, 0, 211)
     node_color = (0, 0, 0)
     selected_node_color = (0, 0, 0)
-    selected_node_subtree_color = (0, 0, 0)
+    selected_node_subtree_color = (148, 0, 211)
     BASE_NODE_DIAMETER = 5
     BASE_NODE_HIGHLIGHT_DIAMETER = 8
     SELECTED_NODE_SPECIAL_HIGHLIGHT_DIAMETER = 12  # Neuer größerer Durchmesser für den selektierten Knoten
@@ -66,8 +66,8 @@ class GraphVisualizer(IGraphVisualizer):
 
         self.edge_color = edge_color
         self.node_color = node_color
-        self.selected_node_color = selected_node_color
-        self.selected_node_subtree_color = selected_node_subtree_color
+        self.selected_node_color = [148, 0, 211] # color fot the circle
+        self.selected_node_subtree_color = [148, 0, 211] # color for the lines
         pygame.font.init()  # Initialisieren Sie das Schriftart-System
         self.font = pygame.font.Font(None, 16)  # Wählen Sie eine Schriftart und Größe
 

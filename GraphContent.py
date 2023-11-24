@@ -36,7 +36,7 @@ class GraphContent:
 
         # I create this note with the values from the ExampleNote class
 
-        main_note = Node(example_note_data.EXAMPLE_DESCRIPTION, example_note_data.EXAMPLE_TITLE, example_note_data.IMAGE, radius=10, color=[238,130,238])
+        main_note = Node(example_note_data.EXAMPLE_DESCRIPTION, example_note_data.EXAMPLE_TITLE, example_note_data.IMAGE, radius=10, color=[238, 130, 238])
 
         # all SubGraphs here:
         SubGraph(main_note, graph)
