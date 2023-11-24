@@ -159,6 +159,7 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 
 #Nur zur Sicherheut
-.idea
-#Nur zur Sicherheut
+.idea/
+.idea/EpiWissensGraph.iml
+.idea/misc.xml
 .idea/workspace.xml
