@@ -18,6 +18,8 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 from GraphModel.Graph import Graph
 from GraphModel.Node import Node
 
+# this is the Package "ExampleNode" that I created. I am importing the ExampleNode class from my file.
+from Resources.ExampleNode import ExampleNode
 
 class GraphContent:
 
@@ -29,6 +31,10 @@ class GraphContent:
         Diese Methode dient Ihnen also Demonstration für den Aufbau eines Graphen.
         TODO: Löschen oder kommentieren Sie diese Methode aus wenn Sie Ihren eigenen Graphen erstellen.
         """
+
+        # I create this note with the values from the ExampleNote class
+        example_note_data = ExampleNode.Example_note()
+        example_node = Node(example_note_data.get_description(), example_note_data.get_title())
 
         how_to_node = Node("Dies ist der Inhalt des Knotens. Ein Zeilenumbruch erfolgt automatisch. Wenn Sie "
                            "jedoch manuell einen Absatz einfügen möchten ist dies über \n \n möglich.\n \n"
@@ -201,23 +207,15 @@ class GraphContent:
                                          "859-866"
                                          , "(Dijkstra, 1972)")
 
-        test_node = Node("Test","Test")
-
-        test_node2 = Node("Test von Tom", "Test")
-
-
         how_to_node.connect(online_source_example_node)
         how_to_node.connect(literature_source_example_node)
         how_to_node.connect(paper_source_example_node)
-        paper_source_example_node.connect(test_node)
-        literature_source_example_node.connect(test_node)
-
-        how_to_node.connect(test_node2)
+        # connect my node to the how_to_node
+        how_to_node.connect(example_node)
 
         graph.add_new_node_to_graph(how_to_node)
         graph.add_new_node_to_graph(online_source_example_node)
         graph.add_new_node_to_graph(literature_source_example_node)
         graph.add_new_node_to_graph(paper_source_example_node)
-        graph.add_new_node_to_graph(test_node)
-
-        graph.add_new_node_to_graph(test_node2)
+        # add the note to the graph
+        graph.add_new_node_to_graph(example_node)
