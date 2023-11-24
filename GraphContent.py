@@ -99,8 +99,8 @@ class GraphContent:
                            "importierten ZIP File in den Image Ordner Ihres Projektes importiert werden. "
                            "Falls ein File mit dem identischen Namen im Image Ordner bereits vorhanden ist, "
                            "wird der Name des importierten Bildes mit dem Namen Ihres Teams konkateniert/"
-                           "verbunden.\n\n",
-                           "Help Knoten: Dies ist der Titel Ihres Knotens",
+                           "verbunden.\n\n",": Dies ist der Titel Ihres Knoten"
+                           "Help Knotens",
                            "image_placeholder.png")
 
         online_source_example_node = Node("## Anmerkung: \n"
@@ -203,6 +203,8 @@ class GraphContent:
 
         test_node = Node("Test","Test")
 
+        test_node2 = Node("Test von Tom", "Test")
+
 
         how_to_node.connect(online_source_example_node)
         how_to_node.connect(literature_source_example_node)
@@ -210,8 +212,12 @@ class GraphContent:
         paper_source_example_node.connect(test_node)
         literature_source_example_node.connect(test_node)
 
+        how_to_node.connect(test_node2)
+
         graph.add_new_node_to_graph(how_to_node)
         graph.add_new_node_to_graph(online_source_example_node)
         graph.add_new_node_to_graph(literature_source_example_node)
         graph.add_new_node_to_graph(paper_source_example_node)
         graph.add_new_node_to_graph(test_node)
+
+        graph.add_new_node_to_graph(test_node2)
