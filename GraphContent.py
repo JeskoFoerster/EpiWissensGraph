@@ -21,6 +21,9 @@ from GraphModel.Node import Node
 # this is the Package "ExampleNode" that I created. I am importing the ExampleNode class from my file.
 from Resources.ExampleNode import ExampleNode
 
+example_note_data = ExampleNode.Example_note()
+
+
 class GraphContent:
 
     def __init__(self, graph: Graph):
@@ -33,8 +36,8 @@ class GraphContent:
         """
 
         # I create this note with the values from the ExampleNote class
-        example_note_data = ExampleNode.Example_note()
-        example_node = Node(example_note_data.get_description(), example_note_data.get_title())
+
+        example_node = Node(example_note_data.EXAMPLE_DESCRIPTION, example_note_data.EXAMPLE_TITLE, example_note_data.IMAGE)
 
         how_to_node = Node("Dies ist der Inhalt des Knotens. Ein Zeilenumbruch erfolgt automatisch. Wenn Sie "
                            "jedoch manuell einen Absatz einfügen möchten ist dies über \n \n möglich.\n \n"
