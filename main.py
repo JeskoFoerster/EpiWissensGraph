@@ -27,7 +27,7 @@ from GraphModel.Graph import Graph
 if __name__ == '__main__':
     # Graph
     graph = Graph()
-    graph.team_name = "Nullpointer exception"
+    graph.team_name = "NullPointerExeption"
     graph_content = GraphContent(graph)  # TODO: Hier können Sie den Inhalt und Verbindungen ihrer Knoten anlegen.
 
     # beautiful_code_graph = MyGraphExample(graph)
