@@ -28,7 +28,7 @@ class Graph:
     This class serves as the core data structure.
     """
     # Default team name associated with the graph
-    team_name = "Die mutigen Mungos"
+    team_name = "NullpointerException"
     # Initial central position for new nodes
     INITIAL_CENTER_POSITION = 5000000
     # List to store all nodes in the graph
