@@ -21,7 +21,7 @@ from GraphModel.Node import Node
 # import all our Subgraphs
 from Subgraphs.InformationTechnologyGraph import InformationTechnologySubGraph
 from Subgraphs.ConsumerGoodsGraph import ConsumerGoodsSubGraph
-from Subgraphs.MediaAndEntertainment import MediaAndEntertainmentSubGraph
+from Subgraphs.MediaAndEntertainmentGraph import MediaAndEntertainmentSubGraph
 
 from Subgraphs.Aerospace import AerospaceSubGraph
 
