@@ -4,4 +4,4 @@ TITEL = "Schneider Electric"
 
 CONTENT = ("SE ist eine Firma")
 
-IMAGE_NAME = "SchneiderElectric.png"
+IMAGE_NAME = "schneiderelectric_logo.png"
