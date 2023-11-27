@@ -3,6 +3,7 @@ from GraphModel.Node import Node
 
 # import all the companys in the subgraph
 # EXAMPLE from Subgraphs.CompanyNodes import SpaceX_Data
+from Subgraphs.CompanyNodes import  Tesla_Data
 
 class AutomotiveIndustry:
 
@@ -12,10 +13,10 @@ class AutomotiveIndustry:
     def automotive_industry_sub_graph(self, graph: Graph, parent_node: Node):
         # Create Nodes
         node_automotive_industry = Node("node_automotive_industry", "node_automotive_industry")
-        node_b = Node("LEER 1", "LEER 11")
+        node_tesla = Node(Tesla_Data.CONTENT, Tesla_Data.TITEL, Tesla_Data.IMAGE_NAME)
 
         parent_node.connect(node_automotive_industry)
-        node_automotive_industry.connect(node_b)
+        node_automotive_industry.connect(node_tesla)
 
         graph.add_new_node_to_graph(node_automotive_industry)
-        graph.add_new_node_to_graph(node_b)
+        graph.add_new_node_to_graph(node_tesla)
