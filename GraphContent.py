@@ -20,6 +20,7 @@ from GraphModel.Node import Node
 
 # import all our Subgraphs
 from Subgraphs.InformationTechnologyGraph import InformationTechnologySubGraph
+from Subgraphs.ConsumerGoodsGraph import ConsumerGoodsSubGraph
 
 
 class GraphContent:
@@ -35,6 +36,7 @@ class GraphContent:
 
         # all SubGraphs here:
         InformationTechnologySubGraph(main_note, graph)
+        ConsumerGoodsSubGraph(main_note, graph)
         # SubGraph2...
         # SubGraph3...
 
