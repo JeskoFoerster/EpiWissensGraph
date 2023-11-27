@@ -13,7 +13,7 @@ class MediaAndEntertainmentSubGraph:
     def media_and_entertainment_create_sub_graph(self, graph: Graph, parent_node: Node):
         # Create Nodes
         node_a = Node("media and entertainment description", "media and entertainment")
-        node_netflix = Node(Netflix_Data.CONTENT, Netflix_Data.TITEL)
+        node_netflix = Node(Netflix_Data.CONTENT, Netflix_Data.TITEL, Netflix_Data.IMAGE_NAME)
 
         parent_node.connect(node_a)
         node_a.connect(node_netflix)
