@@ -17,7 +17,7 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 
 from GraphModel.Graph import Graph
 from Structured_Knowledge_Graph_Example.MainGraph import MainGraph
-from Structured_Knowledge_Graph_Example.SubGraph import SubGraph
+from Subgraphs.InformationTechnologyGraph import InformationTechnologySubGraph
 
 
 class MyGraphExample:

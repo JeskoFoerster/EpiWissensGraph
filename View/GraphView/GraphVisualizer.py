@@ -34,10 +34,10 @@ class GraphVisualizer(IGraphVisualizer):
     selectedNodeContainer: SelectedNodeContainer
     graph: Graph
     screen = None
-    edge_color = (0, 0, 0)
+    edge_color = (148, 0, 211)
     node_color = (0, 0, 0)
     selected_node_color = (0, 0, 0)
-    selected_node_subtree_color = (0, 0, 0)
+    selected_node_subtree_color = (148, 0, 211)
     BASE_NODE_DIAMETER = 5
     BASE_NODE_HIGHLIGHT_DIAMETER = 8
     SELECTED_NODE_SPECIAL_HIGHLIGHT_DIAMETER = 12  # Neuer größerer Durchmesser für den selektierten Knoten
@@ -66,8 +66,8 @@ class GraphVisualizer(IGraphVisualizer):
 
         self.edge_color = edge_color
         self.node_color = node_color
-        self.selected_node_color = selected_node_color
-        self.selected_node_subtree_color = selected_node_subtree_color
+        self.selected_node_color = [148, 0, 211] # color fot the circle
+        self.selected_node_subtree_color = [148, 0, 211] # color for the lines
         pygame.font.init()  # Initialisieren Sie das Schriftart-System
         self.font = pygame.font.Font(None, 16)  # Wählen Sie eine Schriftart und Größe
 
@@ -99,7 +99,7 @@ class GraphVisualizer(IGraphVisualizer):
         # Zeichne Knoten
         for node in self.graph.nodes:
             scaled_x, scaled_y = self.scaleOffsetTransformer.get_scaled_coordinates(node)
-            pygame.draw.circle(self.screen, self.node_color, (scaled_x, scaled_y), self.BASE_NODE_DIAMETER)
+            pygame.draw.circle(self.screen, color=node.color, center=(scaled_x, scaled_y), radius=float(node.radius))
 
         if self.show_node_labels:
             # Zeichne den Titel der Knoten
