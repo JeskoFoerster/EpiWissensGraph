@@ -25,7 +25,7 @@ CONTENT = (
 "https://www.google.com/about/careers/applications/students/\n"
 "https://www.google.com/about/careers/applications/jobs/results/\n"
 "\n"
-"**Quelen:**\n"
+"**Quellen:**\n"
 "*-[1] https://about.google/intl/ALL_us/our-story/\n"
 "*-[2] https://en.wikipedia.org/wiki/Google\n"
 "*-[3] https://about.google/\n"
