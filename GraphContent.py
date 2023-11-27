@@ -26,7 +26,7 @@ from Subgraphs.EnergyGraph import EnergySubGraph
 from Subgraphs.InsuranceGraph import InsuranceSubGraph
 from Subgraphs.Aerospace import AerospaceSubGraph
 from Subgraphs.ArtificialIntelligenceGraph import ArtificialIntelligenceGraph
-
+from Subgraphs.CloudComputing import CloudComputingGraph
 class GraphContent:
 
     def __init__(self, graph: Graph):
@@ -46,6 +46,7 @@ class GraphContent:
         EnergySubGraph(main_note, graph)
         InsuranceSubGraph(main_note, graph)
         ArtificialIntelligenceGraph(main_note, graph)
+        CloudComputingGraph(main_note, graph)
 
         # naechster Subgraph...
         # naechster Subgraph...
