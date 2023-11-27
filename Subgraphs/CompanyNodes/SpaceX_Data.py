@@ -18,6 +18,8 @@ CONTENT = (
 "**Mitarbeiterzahl:**\n"
 "13.000+ (September 2023)\n"
 "\n"
+"**Praxissemester/Praktikum:**\n"
+"Ja"
 )
 
 IMAGE_NAME = "spacex.png"

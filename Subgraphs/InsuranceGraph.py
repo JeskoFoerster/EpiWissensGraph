@@ -2,7 +2,7 @@ from GraphModel.Graph import Graph
 from GraphModel.Node import Node
 
 # import all the companys in the subgraph
-from Subgraphs.CompanyNodes import Axa_Data
+from Subgraphs.CompanyNodes import Axa_Data, Hdi_Data
 
 
 class InsuranceSubGraph:
@@ -15,10 +15,13 @@ class InsuranceSubGraph:
         node_Insurance = Node("Ausgewählte Firmen die Versicherungen anbieten.", "Versicherungen", "insurance.png")
 
         node_Axa = Node(Axa_Data.CONTENT, Axa_Data.TITEL, Axa_Data.IMAGE_NAME)
+        node_Hdi = Node(Hdi_Data.CONTENT, Hdi_Data.TITEL, Hdi_Data.IMAGE_NAME)
 
         parent_node.connect(node_Insurance)
         node_Insurance.connect(node_Axa)
+        node_Insurance.connect(node_Hdi)
 
         graph.add_new_node_to_graph(node_Insurance)
         graph.add_new_node_to_graph(node_Axa)
+        graph.add_new_node_to_graph(node_Hdi)
 

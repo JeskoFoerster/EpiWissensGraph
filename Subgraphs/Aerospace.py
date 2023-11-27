@@ -3,7 +3,7 @@ from GraphModel.Node import Node
 
 # import all the companys in the subgraph
 from Subgraphs.CompanyNodes import SpaceX_Data
-
+from Subgraphs.CompanyNodes import Boeing_Data
 class AerospaceSubGraph:
 
     def __init__(self, parent_node: Node, graph: Graph):
@@ -13,9 +13,12 @@ class AerospaceSubGraph:
         # Create Nodes
         node_aerospace = Node("aerospace", "aerospace")
         node_spacex = Node(SpaceX_Data.CONTENT, SpaceX_Data.TITEL, SpaceX_Data.IMAGE_NAME)
+        node_boeing = Node(Boeing_Data.CONTENT, Boeing_Data.TITEL, Boeing_Data.IMAGE_NAME)
 
         parent_node.connect(node_aerospace)
         node_aerospace.connect(node_spacex)
+        node_aerospace.connect(node_boeing)
 
         graph.add_new_node_to_graph(node_aerospace)
         graph.add_new_node_to_graph(node_spacex)
+        graph.add_new_node_to_graph(node_boeing)

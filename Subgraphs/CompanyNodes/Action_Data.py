@@ -2,10 +2,25 @@
 
 TITEL = "Action Deutschland GmbH"
 
-CONTENT = ("Action ist ein international agierendes Unternehmen, das sich auf den Einzelhandel spezialisiert hat und eine breite Palette von preisgünstigen Produkten anbietet. Mit einer eindrucksvollen Präsenz in 136 Ländern und einer Mitarbeiterzahl von 80.000 hat sich Action zu einem bedeutenden Akteur in der Einzelhandelsbranche entwickelt."
-           "Die Erfolgsgeschichte von Action begann in den Niederlanden, als das Unternehmen 1993 gegründet wurde. Seitdem hat es sich stetig weiterentwickelt und ist zu einem der führenden Anbieter von preiswerten Haushaltswaren, Dekorationsartikeln, Spielwaren und vielem mehr geworden. Die Expansion auf internationaler Ebene erfolgte mit großem Erfolg, und heute ist Action eine bekannte Marke in zahlreichen Ländern auf der ganzen Welt."
-           "Mit 80.000 engagierten Mitarbeitern setzt sich Action für Kundenzufriedenheit und qualitativ hochwertige Produkte zu erschwinglichen Preisen ein. Die Vielfalt des Sortiments und die Schnelligkeit bei der Einführung neuer Produkte haben dazu beigetragen, dass Action zu einem beliebten Einkaufsziel für Menschen aller Altersgruppen geworden ist."
-           "Die Unternehmensphilosophie von Action spiegelt sich in seinem Motto \"Große Produkte, kleiner Preis\" wider. Diese Ausrichtung ermöglicht es dem Unternehmen, ein breites Publikum anzusprechen und gleichzeitig die Bedürfnisse der Kunden zu erfüllen. Die Website von Action unter https://www.action.com bietet Kunden die Möglichkeit, das Sortiment zu erkunden, Sonderangebote zu entdecken und sich über die neuesten Trends zu informieren."
-           "Insgesamt hat sich Action zu einem dynamischen und erfolgreichen Unternehmen entwickelt, das den Einzelhandelsmarkt durch sein innovatives Konzept und seine globale Präsenz maßgeblich geprägt hat. Mit einem klaren Fokus auf Kundenzufriedenheit und einem ständigen Streben nach Exzellenz bleibt Action ein wichtiger Akteur in der Welt des preisgünstigen Einzelhandels.")
+CONTENT = ("**Beschreibung:**\n"
+           "Action ist ein international tätiges Einzelhandelsunternehmen, das eine breite Palette von preisgünstigen Haushaltswaren, Dekorationsartikeln, Spielzeug, Kleidung und mehr anbietet. Das Unternehmen zeichnet sich durch sein vielfältiges Sortiment und seine erschwinglichen Preise aus, was es zu einer beliebten Anlaufstelle für Schnäppchenjäger macht.\n"
+           "\n"
+           "**Website:**\n"
+           "https://www.action.com\n"
+           "\n"
+           "**Telefon:**\n"
+           "Jede Geschäftsstelle von Action verfügt über eine eigene Telefonnummer, die Kunden für Anfragen, Produktverfügbarkeit oder andere Anliegen nutzen können. Die entsprechenden Kontaktdaten sind direkt bei der jeweiligen Filiale erhältlich.\n"
+           "\n"
+           "**Historie:**\n"
+           "Action wurde vor 30 Jahren gegründet und hat seitdem eine beeindruckende Entwicklung erlebt. Die Erfolgsgeschichte des Unternehmens begann mit der Eröffnung der ersten Filiale vor drei Jahrzehnten und setzt sich bis heute fort.\n"
+           "\n"
+           "**Mission/Ziele:**\n"
+           "Die Mission von Action ist es, qualitativ hochwertige Produkte zu unschlagbaren Preisen anzubieten und dabei eine inspirierende Einkaufsumgebung zu schaffen. Das Unternehmen strebt danach, für Kunden weltweit eine breite Auswahl an erschwinglichen Artikeln bereitzustellen und dabei höchste Kundenzufriedenheit zu gewährleisten.\n"
+           "\n"
+           "**Mitarbeiterzahl:**\n"
+           "Mit stolzen 80.000 Mitarbeitern in 136 Ländern ist Action zu einem bedeutenden Arbeitgeber und einer globalen Präsenz herangewachsen.\n"
+           "\n"
+           "**Quellen:**"
+           "-https://www.action.com\n-https://www.presseportal.de/pm/151734/5470313")
 
 IMAGE_NAME = "action_logo.png"
