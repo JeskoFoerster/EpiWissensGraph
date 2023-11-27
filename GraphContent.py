@@ -34,6 +34,7 @@ from Subgraphs.Consulting import ConsultingGraph
 from Subgraphs.Pharmaceuticals import PharmaceuticalsGraph
 from Subgraphs.Education import EducationGraph
 from Subgraphs.FinancialServices import FinancialServicesGraph
+from Subgraphs.AutomotiveIndustry import AutomotiveIndustry
 class GraphContent:
 
     def __init__(self, graph: Graph):
@@ -61,6 +62,7 @@ class GraphContent:
         PharmaceuticalsGraph(main_note, graph)
         EducationGraph(main_note, graph)
         FinancialServicesGraph(main_note, graph)
+        AutomotiveIndustry(main_note, graph)
 
 
         # naechster Subgraph...
