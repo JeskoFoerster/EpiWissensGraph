@@ -12,11 +12,7 @@ class ConsumerGoodsSubGraph:
 
     def consumer_goods_create_sub_grapgh(self, graph: Graph, parent_node: Node):
         # Create Nodes
-        node_ConsumerGoods = Node("Consumer Goods", "Consumer Goods")
-        node_AldiNord = Node("Aldi Nord", "Aldi Nord")
-        node_Lidl = Node("Lidl", "Lidl")
-        node_Action = Node("Action", "Action")
-        node_Obi = Node("Obi", "Obi")
+        node_ConsumerGoods = Node("Ausgewählte Firmen die Konsumgüter vertreiben.", "Konsumgüter", "konsum.png")
 
         node_AldiNord = Node(AldiNord_Data.CONTENT, AldiNord_Data.TITEL, AldiNord_Data.IMAGE_NAME)
         node_Lidl = Node(Lidl_Data.CONTENT, Lidl_Data.TITEL, Lidl_Data.IMAGE_NAME)
