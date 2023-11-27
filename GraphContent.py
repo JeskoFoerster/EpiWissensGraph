@@ -25,6 +25,7 @@ from Subgraphs.MediaAndEntertainmentGraph import MediaAndEntertainmentSubGraph
 from Subgraphs.EnergyGraph import EnergySubGraph
 from Subgraphs.InsuranceGraph import InsuranceSubGraph
 from Subgraphs.Aerospace import AerospaceSubGraph
+from Subgraphs.ArtificialIntelligenceGraph import ArtificialIntelligenceGraph
 
 class GraphContent:
 
@@ -44,6 +45,7 @@ class GraphContent:
         MediaAndEntertainmentSubGraph(main_note, graph)
         EnergySubGraph(main_note, graph)
         InsuranceSubGraph(main_note, graph)
+        ArtificialIntelligenceGraph(main_note, graph)
 
         # naechster Subgraph...
         # naechster Subgraph...
