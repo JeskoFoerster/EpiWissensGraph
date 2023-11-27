@@ -4,22 +4,28 @@ TITEL = "Coseon GmbH"
 
 CONTENT = (
 "## Beschreibung:\n"
-"Text 1\n"
+"Die Coseon GmbH ist eine Firmal welche sich auf Inividualsoftware für Kunden spezielisert hat. Coseon ist Vorallem im Bereich E-Commerce mit dem System \"Synchrotron\" aktiv.\n"
 "\n"
+
 "## Historie:\n"
-"Text 2\n"
+"Coseon wurde im Jahr 2013 von Dennis Domm und Moritz Erhard gegründet. Anfangs hat die Coseon GmbH nur eine Firmer bei der Instandhaltung Ihrer IT unterschützt, jedoch wurde schnell klar, dass das gesamte IT System überholt werden musste und so wurde die Coseon mit dem System \"Synchroton\" beauftragt- Mittlerweie unterstützt die Coseon GmbH mehrere Firmen im Bereich E-Commernce und bietet auch an andere Firmen Individual-Software an.\n"
 "\n"
+
 "## Mission/Ziel:\n"
-"Text 3\n"
+"Die Mission der Coseon GmbH ist es Kunden mit Individual-Software zu unterstützen um somit einen einfacheren, effizienteren und strukturierteren Arbeitsaltag zu ermöglichen. Das System \"Synchrotron\" hat die Aufgabe Preisoptimierung, Versandoptimierung, Synchronization mit Händlern und Marktplätzen durch zu führen.\n"
 "\n"
+
 "**Website:**\n"
-"Text 4\n"
+"https://www.coseon.com/\n"
 "\n"
+
 "**Mitarbeiterzahl:**\n"
-"Text 5\n"
+"6\n"
 "\n"
-"**Kontakt:**\n"
-"Text 6\n"
+
+"**Quelle:**\n"
+"https://www.coseon.com/\n"
+"Eigene Erfahrung (Werksstudent)"
 )
 
 IMAGE_NAME = "coseon.png"
