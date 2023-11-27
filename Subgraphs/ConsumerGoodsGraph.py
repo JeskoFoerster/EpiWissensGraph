@@ -14,7 +14,7 @@ class ConsumerGoodsSubGraph:
         # Create Nodes
         node_ConsumerGoods = Node("Consumer Goods", "Consumer Goods")
         node_AldiNord = Node("", "")
-        node_c = Node("Text", "amazon")
+        node_c = Node("", "")
         node_d = Node("Text", "Tesla")
         node_e = Node("Text", "Nvidia")
 
