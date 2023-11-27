@@ -21,7 +21,8 @@ from GraphModel.Node import Node
 # import all our Subgraphs
 from Subgraphs.InformationTechnologyGraph import InformationTechnologySubGraph
 from Subgraphs.ConsumerGoodsGraph import ConsumerGoodsSubGraph
-from Subgraphs.MediaAndEntertainment import MediaAndEntertainmentSubGraph
+from Subgraphs.MediaAndEntertainmentGraph import MediaAndEntertainmentSubGraph
+from Subgraphs.EnergyGraph import EnergySubGraph
 from Subgraphs.InsuranceGraph import InsuranceSubGraph
 from Subgraphs.Aerospace import AerospaceSubGraph
 
@@ -41,7 +42,6 @@ class GraphContent:
         ConsumerGoodsSubGraph(main_note, graph)
         AerospaceSubGraph(main_note, graph)
         MediaAndEntertainmentSubGraph(main_note, graph)
-        InsuranceSubGraph(main_note, graph)
         # naechster Subgraph...
         # naechster Subgraph...
 
