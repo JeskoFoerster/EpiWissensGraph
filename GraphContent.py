@@ -31,7 +31,7 @@ from Subgraphs.MechanicalEngineering import MechanicalEngineeringGraph
 from Subgraphs.SoftwareAsService import SoftwareAsServiceGraph
 from Subgraphs.Cybersecurity import CybersecurityGraph
 from Subgraphs.Consulting import ConsultingGraph
-from Subgraphs.Pharmaceuticals import PharmaceuticalsGraph
+from Subgraphs.PharmaceuticalsAndHealth import PharmaceuticalsAndHealthGraph
 from Subgraphs.Education import EducationGraph
 from Subgraphs.FinancialServices import FinancialServicesGraph
 from Subgraphs.AutomotiveIndustry import AutomotiveIndustry
@@ -42,9 +42,8 @@ class GraphContent:
 
     def create_company_nodes(self, graph):
 
-        # I create this note with the values from the ExampleNote class
-
         main_note = Node("Das ist die Main-Node", "Main-Node", "example.png", radius=10, color=[238, 130, 238])
+        graph.add_new_node_to_graph(main_note)
 
         # all SubGraphs here:
         InformationTechnologySubGraph(main_note, graph)
@@ -59,16 +58,9 @@ class GraphContent:
         SoftwareAsServiceGraph(main_note, graph)
         CybersecurityGraph(main_note, graph)
         ConsultingGraph(main_note, graph)
-        PharmaceuticalsGraph(main_note, graph)
+        PharmaceuticalsAndHealthGraph(main_note, graph)
         EducationGraph(main_note, graph)
         FinancialServicesGraph(main_note, graph)
         AutomotiveIndustry(main_note, graph)
 
 
-        # naechster Subgraph...
-        # naechster Subgraph...
-
-        # main_note.connect()
-
-        # add the note to the graph
-        graph.add_new_node_to_graph(main_note)
