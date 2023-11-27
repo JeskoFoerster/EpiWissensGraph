@@ -22,6 +22,7 @@ CONTENT = (
 "Ja\n"
 "\n"
 "**Quellen:**\n"
+"*-[Image] https://in.pinterest.com/pin/spacex-logo-png-images-transparent-hd-photo-clipart--577023771024040752/\n"
 "*-[1] https://en.wikipedia.org/wiki/History_of_SpaceX\n"
 "*-[2] https://www.britannica.com/topic/SpaceX\n"
 "*-[3] https://simple.wikipedia.org/wiki/SpaceX\n"
