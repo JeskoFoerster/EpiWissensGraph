@@ -6,7 +6,7 @@ CONTENT = ("**Beschreibung:**\n"
            "Action ist ein international tätiges Einzelhandelsunternehmen, das eine breite Palette von preisgünstigen Haushaltswaren, Dekorationsartikeln, Spielzeug, Kleidung und mehr anbietet. Das Unternehmen zeichnet sich durch sein vielfältiges Sortiment und seine erschwinglichen Preise aus, was es zu einer beliebten Anlaufstelle für Schnäppchenjäger macht.\n"
            "\n"
            "**Website:**\n"
-           "Die offizielle Website von Action, auf der Kunden das aktuelle Sortiment erkunden, Angebote entdecken und Filialen in ihrer Nähe finden können, ist unter https://www.action.com erreichbar.\n"
+           "https://www.action.com\n"
            "\n"
            "**Telefon:**\n"
            "Jede Geschäftsstelle von Action verfügt über eine eigene Telefonnummer, die Kunden für Anfragen, Produktverfügbarkeit oder andere Anliegen nutzen können. Die entsprechenden Kontaktdaten sind direkt bei der jeweiligen Filiale erhältlich.\n"
@@ -21,6 +21,6 @@ CONTENT = ("**Beschreibung:**\n"
            "Mit stolzen 80.000 Mitarbeitern in 136 Ländern ist Action zu einem bedeutenden Arbeitgeber und einer globalen Präsenz herangewachsen.\n"
            "\n"
            "**Quellen:**"
-           "-")
+           "-https://www.action.com\n-https://www.presseportal.de/pm/151734/5470313")
 
 IMAGE_NAME = "action_logo.png"
