@@ -26,6 +26,7 @@ CONTENT = (
 "https://www.google.com/about/careers/applications/jobs/results/\n"
 "\n"
 "**Quellen:**\n"
+"*-[Image] https://www.designtagebuch.de/google-praesentiert-ein-neues-simplifiziertes-logo/comment-page-1/\n"
 "*-[1] https://about.google/intl/ALL_us/our-story/\n"
 "*-[2] https://en.wikipedia.org/wiki/Google\n"
 "*-[3] https://about.google/\n"

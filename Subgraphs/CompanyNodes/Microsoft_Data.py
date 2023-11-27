@@ -27,6 +27,7 @@ CONTENT = (
 "https://careers.microsoft.com/v2/global/en/home.html\n"
 "\n"
 "**Quellen:**\n"
+"*-[Image] https://inoya.de/partnerschaften/microsoft/microsoft-365/\n"
 "*-[1] https://en.wikipedia.org/wiki/History_of_Microsoft\n"
 "*-[2] https://www.britannica.com/topic/Microsoft-Corporation\n"
 "*-[3] https://www.thoughtco.com/microsoft-history-of-a-computing-giant-1991140\n"

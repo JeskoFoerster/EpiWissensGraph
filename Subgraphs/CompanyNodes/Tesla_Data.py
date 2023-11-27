@@ -26,6 +26,7 @@ CONTENT = (
 "https://www.tesla.com/careers/search/?query=internship&site=DE\n"
 "\n"
 "**Quellen:**\n"
+"*-[Image] https://en.wikipedia.org/wiki/File:Tesla_logo.png\n"
 "*-[1] https://de.wikipedia.org/wiki/Tesla,_Inc\n"
 "*-[2] https://www.msn.com/de-de/finanzen/top-stories/teslas-wachstumsziel-wohl-zu-hoch-angesetzt-teslas-ir-chef-martin-viecha-sieht-tesla-in-wachstumsdelle/ar-AA1kztg6\n"
 "*-[3] https://www.suedkurier.de/ueberregional/rundblick/tesla-elon-musk-gruendung-geschichte-historie-infos-hintergrund\n"
