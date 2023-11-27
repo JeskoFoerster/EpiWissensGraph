@@ -2,7 +2,7 @@ from GraphModel.Graph import Graph
 from GraphModel.Node import Node
 
 # import all the companys in the subgraph
-from Subgraphs.CompanyNodes import Coseon_Data, SchneiderElectric_Data
+from Subgraphs.CompanyNodes import Coseon_Data, SchneiderElectric_Data, ElectronicArts_Data
 
 
 class InformationTechnologySubGraph:
@@ -19,6 +19,7 @@ class InformationTechnologySubGraph:
         node_e = Node("Text", "Nvidia")
         node_schneiderelectric = Node(SchneiderElectric_Data.CONTENT, SchneiderElectric_Data.TITEL, SchneiderElectric_Data.IMAGE_NAME)
         node_coseon = Node(Coseon_Data.CONTENT, Coseon_Data.TITEL, Coseon_Data.IMAGE_NAME)
+        node_electronicarts = Node(ElectronicArts_Data.CONTENT, ElectronicArts_Data.TITEL, ElectronicArts_Data.IMAGE_NAME)
 
         parent_node.connect(node_information_technology)
         node_information_technology.connect(node_b)
@@ -27,6 +28,7 @@ class InformationTechnologySubGraph:
         node_information_technology.connect(node_e)
         node_information_technology.connect(node_coseon)
         node_information_technology.connect(node_schneiderelectric)
+        node_information_technology.connect(node_electronicarts)
 
         graph.add_new_node_to_graph(node_information_technology)
         graph.add_new_node_to_graph(node_b)
@@ -35,3 +37,4 @@ class InformationTechnologySubGraph:
         graph.add_new_node_to_graph(node_e)
         graph.add_new_node_to_graph(node_coseon)
         graph.add_new_node_to_graph(node_schneiderelectric)
+        graph.add_new_node_to_graph(node_electronicarts)

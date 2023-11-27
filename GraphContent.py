@@ -42,6 +42,9 @@ class GraphContent:
         ConsumerGoodsSubGraph(main_note, graph)
         AerospaceSubGraph(main_note, graph)
         MediaAndEntertainmentSubGraph(main_note, graph)
+        EnergySubGraph(main_note, graph)
+        InsuranceSubGraph(main_note, graph)
+
         # naechster Subgraph...
         # naechster Subgraph...
 
