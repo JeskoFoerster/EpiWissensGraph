@@ -19,12 +19,7 @@ from GraphModel.Graph import Graph
 from GraphModel.Node import Node
 
 # import all our Subgraphs
-from Structured_Knowledge_Graph_Example.SubGraph import SubGraph
-
-# this is the Package "ExampleNode" that I created. I am importing the ExampleNode class from my file.
-from Resources.ExampleNode import ExampleNode
-
-example_note_data = ExampleNode.Example_note()
+from Subgraphs.InformationTechnologyGraph import InformationTechnologySubGraph
 
 
 class GraphContent:
@@ -36,10 +31,10 @@ class GraphContent:
 
         # I create this note with the values from the ExampleNote class
 
-        main_note = Node(example_note_data.EXAMPLE_DESCRIPTION, example_note_data.EXAMPLE_TITLE, example_note_data.IMAGE, radius=10, color=[238, 130, 238])
+        main_note = Node("Das ist die Main-Node", "Main-Node", "example.png", radius=10, color=[238, 130, 238])
 
         # all SubGraphs here:
-        SubGraph(main_note, graph)
+        InformationTechnologySubGraph(main_note, graph)
         # SubGraph2...
         # SubGraph3...
 
