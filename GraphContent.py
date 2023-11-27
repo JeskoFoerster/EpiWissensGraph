@@ -32,6 +32,8 @@ from Subgraphs.SoftwareAsService import SoftwareAsServiceGraph
 from Subgraphs.Cybersecurity import CybersecurityGraph
 from Subgraphs.Consulting import ConsultingGraph
 from Subgraphs.Pharmaceuticals import PharmaceuticalsGraph
+from Subgraphs.Education import EducationGraph
+from Subgraphs.FinancialServices import FinancialServicesGraph
 class GraphContent:
 
     def __init__(self, graph: Graph):
@@ -57,6 +59,8 @@ class GraphContent:
         CybersecurityGraph(main_note, graph)
         ConsultingGraph(main_note, graph)
         PharmaceuticalsGraph(main_note, graph)
+        EducationGraph(main_note, graph)
+        FinancialServicesGraph(main_note, graph)
 
 
         # naechster Subgraph...
