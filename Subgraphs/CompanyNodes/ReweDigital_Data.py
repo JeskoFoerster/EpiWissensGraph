@@ -23,8 +23,8 @@ CONTENT = ("## Beschreibung:\n"
 "\n"
 
 "**Quelle:**\n"
-"[1]https://www.rewe-digital.com/de\n"
-"Bild: https://commons.wikimedia.org/wiki/File:REWE_Logo_ohne_Rahmen.png"
+"-[1]https://www.rewe-digital.com/de\n"
+"-Bild: https://commons.wikimedia.org/wiki/File:REWE_Logo_ohne_Rahmen.png"
 "\n")
 
 IMAGE_NAME = "rewe_logo.png"

@@ -25,8 +25,9 @@ CONTENT = (
 
 "**Quelle:**\n"
 "-[1]https://www.coseon.com/\n"
-"-[2]Eigene Erfahrung (Werksstudent)"
-"-[3]Handelsregister"
+"-[2]Eigene Erfahrung (Werksstudent)\n"
+"-[3]Handelsregister\n"
+"-Bild: https://www.coseon.com/"
 )
 
 IMAGE_NAME = "coseon.png"
