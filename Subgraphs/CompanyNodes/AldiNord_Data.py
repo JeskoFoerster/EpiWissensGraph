@@ -11,4 +11,4 @@ CONTENT = ("Aldi Nord ist eine der führenden Einzelhandelsketten in Deutschland
            "Aldi Nord hat sich im deutschen Einzelhandel fest etabliert und setzt weiterhin auf Qualität, Kundennähe und wirtschaftliche Effizienz. "
            "Die Kombination aus einer großen Anzahl von Filialen, engagierten Mitarbeitern und einer modernen Online-Präsenz macht Aldi Nord zu einer vertrauenswürdigen Anlaufstelle für Millionen von Kunden in Deutschland.")
 
-IMAGE_NAME = "AldiNord_logo.png"
+IMAGE_NAME = "aldinord_logo.png"
