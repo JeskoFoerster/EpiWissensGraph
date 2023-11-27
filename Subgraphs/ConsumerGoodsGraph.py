@@ -12,22 +12,23 @@ class ConsumerGoodsSubGraph:
 
     def consumer_goods_create_sub_grapgh(self, graph: Graph, parent_node: Node):
         # Create Nodes
-        node_consumer_goods = Node("Consumer Goods", "Consumer Goods")
-        node_b = Node("Text", "Google")
-        node_c = Node("Text", "amazon")
+        node_ConsumerGoods = Node("Consumer Goods", "Consumer Goods")
+        node_AldiNord = Node("", "")
+        node_c = Node("", "")
         node_d = Node("Text", "Tesla")
         node_e = Node("Text", "Nvidia")
+
         node_AldiNord = Node(AldiNord_Data.CONTENT, AldiNord_Data.TITEL, AldiNord_Data.IMAGE_NAME)
 
-        parent_node.connect(node_consumer_goods)
-        node_consumer_goods.connect(node_b)
-        node_consumer_goods.connect(node_c)
-        node_consumer_goods.connect(node_d)
-        node_consumer_goods.connect(node_e)
-        node_consumer_goods.connect(node_AldiNord)
+        parent_node.connect(node_ConsumerGoods)
+        node_ConsumerGoods.connect(node_AldiNord)
+        node_ConsumerGoods.connect(node_c)
+        node_ConsumerGoods.connect(node_d)
+        node_ConsumerGoods.connect(node_e)
+        node_ConsumerGoods.connect(node_AldiNord)
 
-        graph.add_new_node_to_graph(node_consumer_goods)
-        graph.add_new_node_to_graph(node_b)
+        graph.add_new_node_to_graph(node_ConsumerGoods)
+        graph.add_new_node_to_graph(node_AldiNord)
         graph.add_new_node_to_graph(node_c)
         graph.add_new_node_to_graph(node_d)
         graph.add_new_node_to_graph(node_e)
