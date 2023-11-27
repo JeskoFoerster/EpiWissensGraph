@@ -22,6 +22,7 @@ from GraphModel.Node import Node
 from Subgraphs.InformationTechnologyGraph import InformationTechnologySubGraph
 from Subgraphs.ConsumerGoodsGraph import ConsumerGoodsSubGraph
 
+from Subgraphs.Aerospace import AerospaceSubGraph
 
 class GraphContent:
 
@@ -37,8 +38,9 @@ class GraphContent:
         # all SubGraphs here:
         InformationTechnologySubGraph(main_note, graph)
         ConsumerGoodsSubGraph(main_note, graph)
-        # SubGraph2...
-        # SubGraph3...
+        AerospaceSubGraph(main_note, graph)
+        # naechster Subgraph...
+        # naechster Subgraph...
 
         # main_note.connect()
 
