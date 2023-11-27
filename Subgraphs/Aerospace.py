@@ -12,7 +12,7 @@ class AerospaceSubGraph:
     def aerospace_create_sub_graph(self, graph: Graph, parent_node: Node):
         # Create Nodes
         node_aerospace = Node("aerospace", "aerospace")
-        node_spacex = Node(SpaceX_Data.CONTENT, SpaceX_Data.TITEL)
+        node_spacex = Node(SpaceX_Data.CONTENT, SpaceX_Data.TITEL, SpaceX_Data.IMAGE_NAME)
 
         parent_node.connect(node_aerospace)
         node_aerospace.connect(node_spacex)
