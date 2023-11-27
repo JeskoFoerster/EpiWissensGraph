@@ -4,15 +4,15 @@ TITEL = "Coseon GmbH"
 
 CONTENT = (
 "## Beschreibung:\n"
-"Die Coseon GmbH ist eine Firmal welche sich auf Inividualsoftware für Kunden spezielisert hat. Coseon ist Vorallem im Bereich E-Commerce mit dem System \"Synchrotron\" aktiv.\n"
+"Die Coseon GmbH ist eine Firmal welche sich auf Inividualsoftware für Kunden spezielisert hat. Coseon ist Vorallem im Bereich E-Commerce mit dem System \"Synchrotron\" aktiv.\n[2]"
 "\n"
 
 "## Historie:\n"
-"Coseon wurde im Jahr 2013 von Dennis Domm und Moritz Erhard gegründet. Anfangs hat die Coseon GmbH nur eine Firmer bei der Instandhaltung Ihrer IT unterschützt, jedoch wurde schnell klar, dass das gesamte IT System überholt werden musste und so wurde die Coseon mit dem System \"Synchroton\" beauftragt- Mittlerweie unterstützt die Coseon GmbH mehrere Firmen im Bereich E-Commernce und bietet auch an andere Firmen Individual-Software an.\n"
+"Coseon wurde im Jahr 2013 von Dennis Domm und Moritz Erhard gegründet[3]. Anfangs hat die Coseon GmbH nur eine Firmer bei der Instandhaltung Ihrer IT unterschützt, jedoch wurde schnell klar, dass das gesamte IT System überholt werden musste und so wurde die Coseon mit dem System \"Synchroton\" beauftragt- Mittlerweie unterstützt die Coseon GmbH mehrere Firmen im Bereich E-Commernce und bietet auch an andere Firmen Individual-Software an.[2]\n"
 "\n"
 
 "## Mission/Ziel:\n"
-"Die Mission der Coseon GmbH ist es Kunden mit Individual-Software zu unterstützen um somit einen einfacheren, effizienteren und strukturierteren Arbeitsaltag zu ermöglichen. Das System \"Synchrotron\" hat die Aufgabe Preisoptimierung, Versandoptimierung, Synchronization mit Händlern und Marktplätzen durch zu führen.\n"
+"Die Mission der Coseon GmbH ist es Kunden mit Individual-Software zu unterstützen um somit einen einfacheren, effizienteren und strukturierteren Arbeitsaltag zu ermöglichen. Das System \"Synchrotron\" hat die Aufgabe Preisoptimierung, Versandoptimierung, Synchronization mit Händlern und Marktplätzen durch zu führen. [1], [2]\n"
 "\n"
 
 "**Website:**\n"
@@ -20,12 +20,13 @@ CONTENT = (
 "\n"
 
 "**Mitarbeiterzahl:**\n"
-"6\n"
+"6 [2]\n"
 "\n"
 
 "**Quelle:**\n"
-"https://www.coseon.com/\n"
-"Eigene Erfahrung (Werksstudent)"
+"-[1]https://www.coseon.com/\n"
+"-[2]Eigene Erfahrung (Werksstudent)"
+"-[3]Handelsregister"
 )
 
 IMAGE_NAME = "coseon.png"
