@@ -1,0 +1,11 @@
+# id:12
+
+TITEL = "Action Deutschland GmbH"
+
+CONTENT = ("Action ist ein international agierendes Unternehmen, das sich auf den Einzelhandel spezialisiert hat und eine breite Palette von preisgünstigen Produkten anbietet. Mit einer eindrucksvollen Präsenz in 136 Ländern und einer Mitarbeiterzahl von 80.000 hat sich Action zu einem bedeutenden Akteur in der Einzelhandelsbranche entwickelt."
+           "Die Erfolgsgeschichte von Action begann in den Niederlanden, als das Unternehmen 1993 gegründet wurde. Seitdem hat es sich stetig weiterentwickelt und ist zu einem der führenden Anbieter von preiswerten Haushaltswaren, Dekorationsartikeln, Spielwaren und vielem mehr geworden. Die Expansion auf internationaler Ebene erfolgte mit großem Erfolg, und heute ist Action eine bekannte Marke in zahlreichen Ländern auf der ganzen Welt."
+           "Mit 80.000 engagierten Mitarbeitern setzt sich Action für Kundenzufriedenheit und qualitativ hochwertige Produkte zu erschwinglichen Preisen ein. Die Vielfalt des Sortiments und die Schnelligkeit bei der Einführung neuer Produkte haben dazu beigetragen, dass Action zu einem beliebten Einkaufsziel für Menschen aller Altersgruppen geworden ist."
+           "Die Unternehmensphilosophie von Action spiegelt sich in seinem Motto \"Große Produkte, kleiner Preis\" wider. Diese Ausrichtung ermöglicht es dem Unternehmen, ein breites Publikum anzusprechen und gleichzeitig die Bedürfnisse der Kunden zu erfüllen. Die Website von Action unter https://www.action.com bietet Kunden die Möglichkeit, das Sortiment zu erkunden, Sonderangebote zu entdecken und sich über die neuesten Trends zu informieren."
+           "Insgesamt hat sich Action zu einem dynamischen und erfolgreichen Unternehmen entwickelt, das den Einzelhandelsmarkt durch sein innovatives Konzept und seine globale Präsenz maßgeblich geprägt hat. Mit einem klaren Fokus auf Kundenzufriedenheit und einem ständigen Streben nach Exzellenz bleibt Action ein wichtiger Akteur in der Welt des preisgünstigen Einzelhandels.")
+
+IMAGE_NAME = "action_logo.png"
