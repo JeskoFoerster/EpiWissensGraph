@@ -5,6 +5,7 @@ from GraphModel.Node import Node
 # EXAMPLE from Subgraphs.CompanyNodes import SpaceX_Data
 from Subgraphs.CompanyNodes import  Tesla_Data
 from Subgraphs.CompanyNodes import  Bmw_Data
+from Subgraphs.CompanyNodes import  Porsche_Data
 
 class AutomotiveIndustry:
 
@@ -16,11 +17,14 @@ class AutomotiveIndustry:
         node_automotive_industry = Node("node_automotive_industry", "node_automotive_industry")
         node_tesla = Node(Tesla_Data.CONTENT, Tesla_Data.TITEL, Tesla_Data.IMAGE_NAME)
         node_bmw = Node(Bmw_Data.CONTENT, Bmw_Data.TITEL, Bmw_Data.IMAGE_NAME)
+        node_porsche = Node(Porsche_Data.CONTENT, Porsche_Data.TITEL, Porsche_Data.IMAGE_NAME)
 
         parent_node.connect(node_automotive_industry)
         node_automotive_industry.connect(node_tesla)
         node_automotive_industry.connect(node_bmw)
+        node_automotive_industry.connect(node_porsche)
 
         graph.add_new_node_to_graph(node_automotive_industry)
         graph.add_new_node_to_graph(node_tesla)
         graph.add_new_node_to_graph(node_bmw)
+        graph.add_new_node_to_graph(node_porsche)
