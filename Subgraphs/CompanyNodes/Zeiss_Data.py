@@ -22,7 +22,7 @@ CONTENT = (
 "Ja\n"
 "\n"
 "**Kontakt:**\n"
-"arl Zeiss AG\nCarl-Zeiss-Straße 22\n73447 Oberkochen\nDeutschland\nTelefon: +49 7364 20-0\nTelefax: +49 7364 20-6808\n"
+"Carl Zeiss AG\nCarl-Zeiss-Straße 22\n73447 Oberkochen\nDeutschland\nTelefon: +49 7364 20-0\nTelefax: +49 7364 20-6808\n"
 "\n"
 "**Quellen:**\n"
 "*-Bild: https://www.google.com/imgres?imgurl=https%3A%2F%2Fimage.capital.de%2F31039336%2Ft%2FLT%2Fv1%2Fw1440%2Fr1.3333%2F-%2Fzeiss-tor-pr-jpg.jpg&tbnid=XGUDuEhh5j7wgM&vet=12ahUKEwj8ys_X7uaCAxUxXaQEHauZAhUQMygBegUIARCsAQ..i&imgrefurl=https%3A%2F%2Fwww.capital.de%2Fwirtschaft-politik%2Fwestern-von-gestern-der-kalte-krieg-um-carl-zeiss-8694&docid=qbhBNDd_valjWM&w=1440&h=1080&q=zeiss&hl=de&ved=2ahUKEwj8ys_X7uaCAxUxXaQEHauZAhUQMygBegUIARCsAQ\n"
