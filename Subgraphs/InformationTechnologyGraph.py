@@ -2,7 +2,7 @@ from GraphModel.Graph import Graph
 from GraphModel.Node import Node
 
 # import all the companys in the subgraph
-from Subgraphs.CompanyNodes import Coseon_Data, SchneiderElectric_Data, ElectronicArts_Data, Google_Data, ReweDigital_Data
+from Subgraphs.CompanyNodes import Coseon_Data, SchneiderElectric_Data, ElectronicArts_Data, Google_Data, ReweDigital_Data, ParcIT_Data
 
 class InformationTechnologySubGraph:
 
@@ -17,6 +17,7 @@ class InformationTechnologySubGraph:
         node_electronicarts = Node(ElectronicArts_Data.CONTENT, ElectronicArts_Data.TITEL, ElectronicArts_Data.IMAGE_NAME)
         node_google = Node(Google_Data.CONTENT, Google_Data.TITEL, Google_Data.IMAGE_NAME)
         node_rewe_digital = Node(ReweDigital_Data.CONTENT, ReweDigital_Data.TITEL, ReweDigital_Data.IMAGE_NAME)
+        node_parcIT = Node(ParcIT_Data.CONTENT, ParcIT_Data.TITEL, ParcIT_Data.IMAGE_NAME)
 
         parent_node.connect(node_information_technology)
         node_information_technology.connect(node_coseon)
@@ -24,6 +25,7 @@ class InformationTechnologySubGraph:
         node_information_technology.connect(node_electronicarts)
         node_information_technology.connect(node_google)
         node_information_technology.connect(node_rewe_digital)
+        node_information_technology.connect(node_parcIT)
 
         graph.add_new_node_to_graph(node_information_technology)
         graph.add_new_node_to_graph(node_coseon)
@@ -31,3 +33,4 @@ class InformationTechnologySubGraph:
         graph.add_new_node_to_graph(node_electronicarts)
         graph.add_new_node_to_graph(node_google)
         graph.add_new_node_to_graph(node_rewe_digital)
+        graph.add_new_node_to_graph(node_parcIT)
