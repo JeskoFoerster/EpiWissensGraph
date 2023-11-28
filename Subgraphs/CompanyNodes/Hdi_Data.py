@@ -20,12 +20,14 @@ CONTENT = (
 "\n"
 
 "**Mitarbeiterzahl:**\n"
+"Die HDI Group hat Weltweit 24000 Mitarbeiter.[4]\n"
 "\n"
 
 "**Quelle:**\n"
 "-[1]https://www.hdi.global/de-de/\n"
 "-[2]https://www.hdi.global/de-de/das-unternehmen/ueber-uns/\n"
 "-[3]https://www.hdi.de/ueber-uns/unternehmen/information-gem-der-verordnung-ueber-nachhaltigkeitsbezogene-offenlegungspflichten-im-finanzdienstleistungssektor/\n"
+"-[4] https://careers.hdi.group/de/hdi_group_als_arbeitgeber"
 "-Bild: https://ecda.eur.nl/2021/02/23/we-are-pleased-to-announce-that-hdi-global-specialty-se-is-our-new-corporate-partner-as-of-1-january-2021/")
 
 IMAGE_NAME = "hdi_logo.png"
