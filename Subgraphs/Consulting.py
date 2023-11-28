@@ -2,7 +2,7 @@ from GraphModel.Graph import Graph
 from GraphModel.Node import Node
 
 # import all the companys in the subgraph
-# EXAMPLE from Subgraphs.CompanyNodes import SpaceX_Data
+from Subgraphs.CompanyNodes import SollersConsulting_Data
 
 class ConsultingGraph:
 
@@ -11,11 +11,11 @@ class ConsultingGraph:
 
     def consulting_create_sub_graph(self, graph: Graph, parent_node: Node):
         # Create Nodes
-        node_consulting = Node("node_consulting", "node_consulting")
-        node_b = Node("LEER 1", "LEER 11")
+        node_consulting = Node("Consulting", "Consulting")
+        node_sollersConsulting = Node(SollersConsulting_Data.CONTENT, SollersConsulting_Data.TITEL, SollersConsulting_Data.IMAGE_NAME)
 
         parent_node.connect(node_consulting)
-        node_consulting.connect(node_b)
+        node_consulting.connect(node_sollersConsulting)
 
         graph.add_new_node_to_graph(node_consulting)
-        graph.add_new_node_to_graph(node_b)
+        graph.add_new_node_to_graph(node_sollersConsulting)
