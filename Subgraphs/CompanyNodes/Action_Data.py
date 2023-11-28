@@ -21,12 +21,12 @@ CONTENT = ("**Beschreibung:**\n"
            "\n"
            "**Mission/Ziele:**\n"
            "Die Mission von Action ist klar definiert: \"Kleine Preise, große Freude.\" Seit drei Jahrzehnten steht das Unternehmen für erschwingliche Preise und die Bereitstellung eines breiten Sortiments, das regelmäßig erneuert wird. Action verfolgt das Ziel, seinen Kunden stets ein einzigartiges Einkaufserlebnis zu bieten, das von Vielfalt, Qualität und vor allem von erschwinglichen Preisen geprägt ist."
-           "Das Bestreben von Action, \"große Freude\" zu schaffen, geht über den reinen Einkauf hinaus. Das Unternehmen möchte, dass Kunden nicht nur mit ihren Einkäufen zufrieden sind, sondern auch Freude daran haben, immer wieder etwas Neues und Überraschendes zu entdecken. Diese Mission spiegelt sich in der kontinuierlichen Innovation des Sortiments wider, wodurch Action seinen Kunden stets frische und attraktive Produkte zu niedrigen Preisen bieten kann.\n[1][3]"
+           "Das Bestreben von Action, \"große Freude\" zu schaffen, geht über den reinen Einkauf hinaus. Das Unternehmen möchte, dass Kunden nicht nur mit ihren Einkäufen zufrieden sind, sondern auch Freude daran haben, immer wieder etwas Neues und Überraschendes zu entdecken. Diese Mission spiegelt sich in der kontinuierlichen Innovation des Sortiments wider, wodurch Action seinen Kunden stets frische und attraktive Produkte zu niedrigen Preisen bieten kann.[1][3]\n"
            "\n"
            "**Mitarbeiterzahl:**\n"
            "Mit stolzen 60.000+ Mitarbeitern in 11 Ländern ist Action zu einem bedeutenden Arbeitgeber und einer globalen Präsenz herangewachsen.[2][3]\n"
            "\n"
            "**Quellen:**\n"
-           "-https://www.action.com [1]\n-https://update2022.action.com/update2022/people[2]\n-https://www.action.com/de-de/ueber-uns/historie/[3]")
+           "-https://www.action.com [1]\n-https://update2022.action.com/update2022/people [2]\n-https://www.action.com/de-de/ueber-uns/historie/ [3]")
 
 IMAGE_NAME = "action_logo.png"
