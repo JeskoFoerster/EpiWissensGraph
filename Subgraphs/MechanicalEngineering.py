@@ -2,7 +2,7 @@ from GraphModel.Graph import Graph
 from GraphModel.Node import Node
 
 # import all the companys in the subgraph
-# EXAMPLE from Subgraphs.CompanyNodes import SpaceX_Data
+from Subgraphs.CompanyNodes import PferdWerkzeuge_Data
 
 class MechanicalEngineeringGraph:
 
@@ -11,11 +11,11 @@ class MechanicalEngineeringGraph:
 
     def mechanical_engineering_create_sub_graph(self, graph: Graph, parent_node: Node):
         # Create Nodes
-        node_mechanical_engineering = Node("node_mechanical_engineering", "node_mechanical_engineering")
-        node_b = Node("LEER 1", "LEER 11")
+        node_mechanical_engineering = Node("Maschienbau/Metallverarbeitung", "Maschienbau/Metallverarbeitung")
+        node_pferd = Node(PferdWerkzeuge_Data.CONTENT, PferdWerkzeuge_Data.TITEL, PferdWerkzeuge_Data.IMAGE_NAME)
 
         parent_node.connect(node_mechanical_engineering)
-        node_mechanical_engineering.connect(node_b)
+        node_mechanical_engineering.connect(node_pferd)
 
         graph.add_new_node_to_graph(node_mechanical_engineering)
-        graph.add_new_node_to_graph(node_b)
+        graph.add_new_node_to_graph(node_pferd)
