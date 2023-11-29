@@ -12,7 +12,7 @@ class ConsumerGoodsSubGraph:
 
     def consumer_goods_create_sub_grapgh(self, graph: Graph, parent_node: Node):
         # Create Nodes
-        node_ConsumerGoods = Node("Ausgewählte Firmen die Konsumgüter vertreiben.", "Konsumgüter", "konsum.png")
+        node_ConsumerGoods = Node("## Beschreibung:\nAusgewählte Firmen die Konsumgüter vertreiben.\n\n## Quellen:\n-[Bild] https://www.adito.de/knowhow/blog/konsumgueter", "Konsumgüter", "konsum.png", radius=8, color=[204, 51, 255])
 
         node_AldiNord = Node(AldiNord_Data.CONTENT, AldiNord_Data.TITEL, AldiNord_Data.IMAGE_NAME)
         node_Lidl = Node(Lidl_Data.CONTENT, Lidl_Data.TITEL, Lidl_Data.IMAGE_NAME)
