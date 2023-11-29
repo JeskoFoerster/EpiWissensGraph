@@ -32,6 +32,8 @@ from Subgraphs.Consulting import ConsultingGraph
 from Subgraphs.PharmaceuticalsAndHealth import PharmaceuticalsAndHealthGraph
 from Subgraphs.FinancialServices import FinancialServicesGraph
 from Subgraphs.AutomotiveIndustry import AutomotiveIndustry
+
+
 class GraphContent:
 
     def __init__(self, graph: Graph):

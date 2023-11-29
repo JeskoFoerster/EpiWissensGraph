@@ -19,7 +19,6 @@ import pygame.freetype
 import sys
 
 from GraphContent import GraphContent
-from Structured_Knowledge_Graph_Example.MyGraphExample import MyGraphExample
 from View.ApplicationLoopManager import ApplicationLoopManager
 from ComponentAssembly.ComponentAssembler import ComponentAssembler
 from GraphModel.Graph import Graph
@@ -30,11 +29,10 @@ if __name__ == '__main__':
     graph.team_name = "NullPointerException"
     graph_content = GraphContent(graph)
 
-    # beautiful_code_graph = MyGraphExample(graph)
-
     # Application
     component_assembler = ComponentAssembler(graph, False)
     main = ApplicationLoopManager(component_assembler)
+
     # pygame beenden
     pygame.quit()
     sys.exit()
