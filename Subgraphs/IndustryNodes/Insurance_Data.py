@@ -1,9 +1,36 @@
 TITEL = "Versicherung"
 
+
 CONTENT = (
-"## Beschreibung:\n"
-"Ausgewählte Firmen die Versicherungen anbieten\n"
-"## Quellen:\n"
-"Bild:fehlen??\n")
+    "## Beschreibung:\n"
+    "Text 1\n"
+    "\n"
+    "## Warum ist <Unternehmen> für Informatiker interessant?:\n"
+    "Text 2\n"
+    "\n"
+    "## Historie:\n"
+    "Text 2\n"
+    "\n"
+    "## Mission/Ziel:\n"
+    "Text 3\n"
+    "\n"
+    "**Website:**\n"
+    "Text 4\n"
+    "\n"
+    "**Mitarbeiterzahl:**\n"
+    "Text 5\n"
+    "\n"
+    "**Praxissemester/Praktikum:**\n"
+    "Ja/Nein\n"
+    "\n"
+    "**Kontakt:**\n"
+    "Text 6\n"
+    "\n"
+    "**Quellen:**\n"
+    "*-[Image] www.....\n"
+    "*-[1] www.....\n"
+    "*-[2] www.....\n"
+)
+
 
 IMAGE_NAME = "insurance.png"
