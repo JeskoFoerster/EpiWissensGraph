@@ -11,7 +11,7 @@ class ArtificialIntelligenceGraph:
 
     def artificial_intelligence_create_sub_graph(self, graph: Graph, parent_node: Node):
         # Create Nodes
-        node_artificial_intelligence = Node("artificial_intelligence", "artificial_intelligence")
+        node_artificial_intelligence = Node("artificial_intelligence", "artificial_intelligence", radius=8, color=[204, 51, 255])
         node_b = Node("LEER 1", "LEER 11")
 
         parent_node.connect(node_artificial_intelligence)

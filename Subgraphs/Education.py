@@ -11,7 +11,7 @@ class EducationGraph:
 
     def education_create_sub_graph(self, graph: Graph, parent_node: Node):
         # Create Nodes
-        node_education = Node("node_education", "node_education")
+        node_education = Node("node_education", "node_education", radius=8, color=[204, 51, 255])
         node_b = Node("LEER 1", "LEER 11")
 
         parent_node.connect(node_education)

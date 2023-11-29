@@ -11,7 +11,7 @@ class CybersecurityGraph:
 
     def cybersecurity_create_sub_graph(self, graph: Graph, parent_node: Node):
         # Create Nodes
-        node_cybersecurity = Node("node_cybersecurity", "node_cybersecurity")
+        node_cybersecurity = Node("node_cybersecurity", "node_cybersecurity", radius=8, color=[204, 51, 255])
         node_secunet = Node(Secunet_Data.CONTENT, Secunet_Data.TITEL, Secunet_Data.IMAGE_NAME)
 
         parent_node.connect(node_cybersecurity)

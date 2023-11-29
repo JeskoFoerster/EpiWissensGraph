@@ -12,7 +12,7 @@ class InsuranceSubGraph:
 
     def Insurance_create_sub_grapgh(self, graph: Graph, parent_node: Node):
         # Create Nodes
-        node_Insurance = Node("Ausgewählte Firmen die Versicherungen anbieten.", "Versicherungen", "insurance.png")
+        node_Insurance = Node("Ausgewählte Firmen die Versicherungen anbieten.", "Versicherungen", "insurance.png", radius=8, color=[204, 51, 255])
 
         node_Axa = Node(Axa_Data.CONTENT, Axa_Data.TITEL, Axa_Data.IMAGE_NAME)
         node_Hdi = Node(Hdi_Data.CONTENT, Hdi_Data.TITEL, Hdi_Data.IMAGE_NAME)
