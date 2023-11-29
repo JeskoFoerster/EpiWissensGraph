@@ -42,7 +42,7 @@ class GraphContent:
 
     def create_company_nodes(self, graph):
 
-        main_note = Node("Das ist die Main-Node", "Main-Node", "example.png", radius=10, color=[238, 130, 238])
+        main_note = Node("Das ist die Main-Node", "Main-Node", "example.png", radius=10, color=[153, 51, 255])
         graph.add_new_node_to_graph(main_note)
 
         # all SubGraphs here:

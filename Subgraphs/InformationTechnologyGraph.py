@@ -12,7 +12,7 @@ class InformationTechnologySubGraph:
 
     def information_technology_create_sub_graph(self, graph: Graph, parent_node: Node):
         # Create Nodes
-        node_information_technology = Node(InformationTechnology_Data.CONTENT, InformationTechnology_Data.TITEL, InformationTechnology_Data.IMAGE_NAME)
+        node_information_technology = Node(InformationTechnology_Data.CONTENT, InformationTechnology_Data.TITEL, InformationTechnology_Data.IMAGE_NAME, radius=8, color=[204, 51, 255])
         node_schneiderelectric = Node(SchneiderElectric_Data.CONTENT, SchneiderElectric_Data.TITEL, SchneiderElectric_Data.IMAGE_NAME)
         node_coseon = Node(Coseon_Data.CONTENT, Coseon_Data.TITEL, Coseon_Data.IMAGE_NAME)
         node_electronicarts = Node(ElectronicArts_Data.CONTENT, ElectronicArts_Data.TITEL, ElectronicArts_Data.IMAGE_NAME)
