@@ -32,7 +32,6 @@ from Subgraphs.SoftwareAsService import SoftwareAsServiceGraph
 from Subgraphs.Cybersecurity import CybersecurityGraph
 from Subgraphs.Consulting import ConsultingGraph
 from Subgraphs.PharmaceuticalsAndHealth import PharmaceuticalsAndHealthGraph
-from Subgraphs.Education import EducationGraph
 from Subgraphs.FinancialServices import FinancialServicesGraph
 from Subgraphs.AutomotiveIndustry import AutomotiveIndustry
 class GraphContent:
@@ -59,7 +58,6 @@ class GraphContent:
         CybersecurityGraph(main_note, graph)
         ConsultingGraph(main_note, graph)
         PharmaceuticalsAndHealthGraph(main_note, graph)
-        EducationGraph(main_note, graph)
         FinancialServicesGraph(main_note, graph)
         AutomotiveIndustry(main_note, graph)
 
