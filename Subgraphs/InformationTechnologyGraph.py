@@ -2,7 +2,7 @@ from GraphModel.Graph import Graph
 from GraphModel.Node import Node
 
 # import all the companys in the subgraph
-from Subgraphs.CompanyNodes import Coseon_Data, SchneiderElectric_Data, ElectronicArts_Data, Google_Data, ReweDigital_Data, ParcIT_Data, Zeiss_Data, SAP_Data
+from Subgraphs.CompanyNodes import Coseon_Data, SchneiderElectric_Data, ElectronicArts_Data, Google_Data, ReweDigital_Data, ParcIT_Data, Zeiss_Data, SAP_Data, Netcologne_Data
 from Subgraphs.IndustryNodes import InformationTechnology_Data
 
 class InformationTechnologySubGraph:
@@ -21,6 +21,7 @@ class InformationTechnologySubGraph:
         node_parcIT = Node(ParcIT_Data.CONTENT, ParcIT_Data.TITEL, ParcIT_Data.IMAGE_NAME)
         node_zeiss = Node(Zeiss_Data.CONTENT, Zeiss_Data.TITEL, Zeiss_Data.IMAGE_NAME)
         node_sap = Node(SAP_Data.CONTENT, SAP_Data.TITEL, SAP_Data.IMAGE_NAME)
+        node_netcologne= Node(Netcologne_Data.CONTENT, Netcologne_Data.TITEL, Netcologne_Data.IMAGE_NAME)
 
         parent_node.connect(node_information_technology)
         node_information_technology.connect(node_coseon)
@@ -31,6 +32,7 @@ class InformationTechnologySubGraph:
         node_information_technology.connect(node_parcIT)
         node_information_technology.connect(node_zeiss)
         node_information_technology.connect(node_sap)
+        node_information_technology.connect(node_netcologne)
 
 
         graph.add_new_node_to_graph(node_information_technology)
@@ -42,3 +44,4 @@ class InformationTechnologySubGraph:
         graph.add_new_node_to_graph(node_parcIT)
         graph.add_new_node_to_graph(node_zeiss)
         graph.add_new_node_to_graph(node_sap)
+        graph.add_new_node_to_graph(node_netcologne)
