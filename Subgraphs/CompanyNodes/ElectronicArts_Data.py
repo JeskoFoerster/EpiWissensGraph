@@ -21,7 +21,7 @@ CONTENT = (
     "erweitern. Zudem zeigt das Engagement für Vielfalt, Inklusion und Nachhaltigkeit, dass EA nicht nur "
     "technologisch, sondern auch sozial verantwortungsbewusst agiert. Das ständige Streben nach Spitzenleistungen "
     "schafft eine Umgebung, in der Informatiker kontinuierlich herausgefordert werden und ihre Fähigkeiten "
-    "weiterentwickeln können.\n "
+    "weiterentwickeln können.[1]\n "
     "\n"
 
     "## Historie:\n"
