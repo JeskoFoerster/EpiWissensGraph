@@ -3,7 +3,7 @@ from GraphModel.Node import Node
 
 # import all the companys in the subgraph
 from Subgraphs.CompanyNodes import Coseon_Data, SchneiderElectric_Data, ElectronicArts_Data, Google_Data, ReweDigital_Data, ParcIT_Data, Zeiss_Data
-
+from Subgraphs.IndustryNodes import InformationTechnology_Data
 
 class InformationTechnologySubGraph:
 
@@ -12,7 +12,7 @@ class InformationTechnologySubGraph:
 
     def information_technology_create_sub_graph(self, graph: Graph, parent_node: Node):
         # Create Nodes
-        node_information_technology = Node("information technology", "information technology")
+        node_information_technology = Node(InformationTechnology_Data.CONTENT, InformationTechnology_Data.TITEL, InformationTechnology_Data.IMAGE_NAME)
         node_schneiderelectric = Node(SchneiderElectric_Data.CONTENT, SchneiderElectric_Data.TITEL, SchneiderElectric_Data.IMAGE_NAME)
         node_coseon = Node(Coseon_Data.CONTENT, Coseon_Data.TITEL, Coseon_Data.IMAGE_NAME)
         node_electronicarts = Node(ElectronicArts_Data.CONTENT, ElectronicArts_Data.TITEL, ElectronicArts_Data.IMAGE_NAME)
