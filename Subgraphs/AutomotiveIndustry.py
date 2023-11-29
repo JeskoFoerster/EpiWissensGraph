@@ -17,7 +17,7 @@ class AutomotiveIndustry:
         node_porsche = Node(Porsche_Data.CONTENT, Porsche_Data.TITEL, Porsche_Data.IMAGE_NAME)
         node_audi = Node(Audi_Data.CONTENT, Audi_Data.TITEL, Audi_Data.IMAGE_NAME)
         node_volkswagen = Node(Volkswagen_Data.CONTENT, Volkswagen_Data.TITEL, Volkswagen_Data.IMAGE_NAME)
-        node_mercedesbenz = Node(MercedesBenz_Data.CONTENT, Volkswagen_Data.TITEL, MercedesBenz_Data.IMAGE_NAME)
+        node_mercedesbenz = Node(MercedesBenz_Data.CONTENT, MercedesBenz_Data.TITEL, MercedesBenz_Data.IMAGE_NAME)
 
         parent_node.connect(node_automotive_industry)
         node_automotive_industry.connect(node_tesla)
