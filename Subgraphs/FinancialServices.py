@@ -2,8 +2,8 @@ from GraphModel.Graph import Graph
 from GraphModel.Node import Node
 
 # import all the companys in the subgraph
-# EXAMPLE from Subgraphs.CompanyNodes import SpaceX_Data
-
+# from Subgraphs.CompanyNodes import
+from Subgraphs.IndustryNodes import  FinancialServices_Data
 class FinancialServicesGraph:
 
     def __init__(self, parent_node: Node, graph: Graph):
@@ -11,7 +11,7 @@ class FinancialServicesGraph:
 
     def financial_services_sub_graph(self, graph: Graph, parent_node: Node):
         # Create Nodes
-        node_financial_services = Node("node_financial_services", "node_financial_services", radius=8, color=[204, 51, 255])
+        node_financial_services = Node(FinancialServices_Data.CONTENT,FinancialServices_Data.TITEL,FinancialServices_Data.IMAGE_NAME, radius=8, color=[204, 51, 255])
         node_b = Node("LEER 1", "LEER 11")
 
         parent_node.connect(node_financial_services)
