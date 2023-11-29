@@ -3,7 +3,7 @@
 TITEL = "Riot Games Inc."
 
 CONTENT = ( "**Beschreibung:**\n"
-            "Riot Games, mit Hauptsitz in West Los Angeles, ist ein US-amerikanischer Entwickler und Publisher von Computerspielen. Bekannt ist das Unternehmen insbesondere für das MOBA (Multiplayer Online Battle Arena) League of Legends, das am 27. Oktober 2009 in Europa und Nordamerika veröffentlicht wurde. Seit dem Abschluss des Unternehmensanteilkaufs im Dezember 2015 ist Riot Games eine Tochtergesellschaft des chinesischen Internetkonzerns Tencent."
+            "Riot Games, mit Hauptsitz in West Los Angeles, ist ein US-amerikanischer Entwickler und Publisher von Computerspielen. Bekannt ist das Unternehmen insbesondere für das MOBA (Multiplayer Online Battle Arena) League of Legends, das am 27. Oktober 2009 in Europa und Nordamerika veröffentlicht wurde. Seit dem Abschluss des Unternehmensanteilkaufs im Dezember 2015 ist Riot Games eine Tochtergesellschaft des chinesischen Internetkonzerns Tencent. [1][4]"
             "\n\n"
             "**Website:**\n"
             "-https://www.riotgames.com/de"
