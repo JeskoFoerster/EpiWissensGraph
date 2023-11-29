@@ -27,7 +27,6 @@ CONTENT = (
     "\n"
     "**Quellen:**\n"
     "*-[Image]https://www.klipartz.com/en/search?q=technology"
-    "\n  Image by pch.vector on Freepik \n"
     "*-[1] www.....\n"
     "*-[2] www.....\n"
 )
