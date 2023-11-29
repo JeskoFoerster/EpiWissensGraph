@@ -11,7 +11,7 @@ class PharmaceuticalsAndHealthGraph:
 
     def pharmaceuticals_create_sub_graph(self, graph: Graph, parent_node: Node):
         # Create Nodes
-        node_pharmaceuticalsAndHealth = Node("Gesundheitswesen", "Gesundheitswesen")
+        node_pharmaceuticalsAndHealth = Node("Gesundheitswesen", "Gesundheitswesen", radius=8, color=[204, 51, 255])
         node_innovas = Node(Innovas_Data.CONTENT, Innovas_Data.TITEL, Innovas_Data.IMAGE_NAME)
 
         parent_node.connect(node_pharmaceuticalsAndHealth)

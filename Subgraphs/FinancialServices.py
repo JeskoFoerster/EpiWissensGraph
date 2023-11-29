@@ -11,7 +11,7 @@ class FinancialServicesGraph:
 
     def financial_services_sub_graph(self, graph: Graph, parent_node: Node):
         # Create Nodes
-        node_financial_services = Node("node_financial_services", "node_financial_services")
+        node_financial_services = Node("node_financial_services", "node_financial_services", radius=8, color=[204, 51, 255])
         node_b = Node("LEER 1", "LEER 11")
 
         parent_node.connect(node_financial_services)

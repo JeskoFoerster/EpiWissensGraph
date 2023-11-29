@@ -11,7 +11,7 @@ class ConsultingGraph:
 
     def consulting_create_sub_graph(self, graph: Graph, parent_node: Node):
         # Create Nodes
-        node_consulting = Node("Consulting", "Consulting")
+        node_consulting = Node("Consulting", "Consulting", radius=8, color=[204, 51, 255])
         node_sollersConsulting = Node(SollersConsulting_Data.CONTENT, SollersConsulting_Data.TITEL, SollersConsulting_Data.IMAGE_NAME)
 
         parent_node.connect(node_consulting)
