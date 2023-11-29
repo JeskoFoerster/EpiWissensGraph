@@ -8,7 +8,7 @@ CONTENT = ( "## Beschreibung:\n"
             "\n"
            
             "## Warum ist Otto für Informatiker interessant?:\n"
-            "Otto ist für Informatiker besonders interessant, da das Unternehmen eine ausgeprägte digitale Ausrichtung besitzt. Mit innovativen Technologien und einem starken Fokus auf Digitalisierung bietet Otto eine vielfältige Arbeitsumgebung für Informatiker. Der sehr große Online-Shop des Unternehmens stellt eine herausfordernde Plattform dar, die kontinuierlich weiterentwickelt und optimiert werden muss, was für Informatiker attraktive Möglichkeiten zur Anwendung ihrer Fähigkeiten und zur Mitgestaltung bietet.\n"
+            "Otto ist für Informatiker besonders interessant, da das Unternehmen eine ausgeprägte digitale Ausrichtung besitzt. Mit innovativen Technologien und einem starken Fokus auf Digitalisierung bietet Otto eine vielfältige Arbeitsumgebung für Informatiker. Der sehr große Online-Shop des Unternehmens stellt eine herausfordernde Plattform dar, die kontinuierlich weiterentwickelt und optimiert werden muss.\n"
             "\n"
            
             "## Historie:\n"
