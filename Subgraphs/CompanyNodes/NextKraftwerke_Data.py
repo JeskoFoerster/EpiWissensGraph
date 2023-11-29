@@ -1,7 +1,7 @@
 # id:26
 
-TITEL = "ESL Gaming GmbH"
+TITEL = "NextKraftwerke GmbH"
 
-CONTENT = ("ESL Gaming ist eine Firma, welche sich auf Esports Fokussiert.")
+CONTENT = ("Foobar")
 
-IMAGE_NAME = "eslgaming_logo.png"
+IMAGE_NAME = "nextkraftwerke_logo.png"

@@ -2,7 +2,8 @@ from GraphModel.Graph import Graph
 from GraphModel.Node import Node
 
 # import all the companys in the subgraph
-from Subgraphs.CompanyNodes import NextKraftwerke_Data
+from Subgraphs.CompanyNodes import NextKraftwerke_Data, RhenagRheinischeEnergie_Data
+from Subgraphs.IndustryNodes import Energy_Data
 
 
 class EnergySubGraph:
@@ -12,12 +13,15 @@ class EnergySubGraph:
 
     def energy_create_sub_graph(self, graph: Graph, parent_node: Node):
         # Create Nodes
-        node_a = Node("energy description", "energy")
+        node_energy = Node(Energy_Data.CONTENT,Energy_Data.TITEL, Energy_Data.IMAGE_NAME,radius=8, color=[204, 51, 255])
         node_nextkraftwerke = Node(NextKraftwerke_Data.CONTENT, NextKraftwerke_Data.TITEL, NextKraftwerke_Data.IMAGE_NAME)
+        node_rhenagrheinischeenergie = Node(RhenagRheinischeEnergie_Data.CONTENT, RhenagRheinischeEnergie_Data.TITEL, RhenagRheinischeEnergie_Data.IMAGE_NAME)
 
 
-        parent_node.connect(node_a)
-        node_a.connect(node_nextkraftwerke)
+        parent_node.connect(node_energy)
+        node_energy.connect(node_nextkraftwerke)
+        node_energy.connect(node_rhenagrheinischeenergie)
 
-        graph.add_new_node_to_graph(node_a)
+        graph.add_new_node_to_graph(node_energy)
         graph.add_new_node_to_graph(node_nextkraftwerke)
+        graph.add_new_node_to_graph(node_rhenagrheinischeenergie)
