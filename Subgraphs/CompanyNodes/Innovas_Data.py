@@ -7,7 +7,7 @@ CONTENT = (
     "innerhalb der Medizinverwaltung spezialisiert hat. [1] "
     "\n"
     
-    "## Warum ist Coseon für Informatiker interessant?:\n"
+    "## Warum ist Innovas für Informatiker interessant?:\n"
     "Die Innovas GmbH präsentiert sich als äußerst attraktiver Arbeitgeber für Informatiker, insbesondere jene, "
     "die ihre Fähigkeiten in der Medizinsoftwareentwicklung entfalten möchten. Als renommiertes Unternehmen hat sich "
     "Innovas auf innovative Lösungen im Bereich der Software innerhalb der Medizinverwaltung spezialisiert, "

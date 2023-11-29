@@ -11,7 +11,7 @@ CONTENT = (
     "## Warum ist Coseon für Informatiker interessant?:\n"
     "Coseon ist ein kleines Unternehmen, in dem eine viel Zahl von Technologien genutzt wird. So setzt Coseon auf "
     "Docker und Kubernetes. Coseon ist für einen Informatiker besonders interesant, da man als Mitarbeiter sehr viele "
-    "Technologien nutzt und erlernt.\n "
+    "Technologien nutzt und erlernt.[2]\n "
     "\n"
 
     "## Historie:\n"
