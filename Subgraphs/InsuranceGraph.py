@@ -2,8 +2,8 @@ from GraphModel.Graph import Graph
 from GraphModel.Node import Node
 
 # import all the companys in the subgraph
-from Subgraphs.CompanyNodes import Axa_Data, Hdi_Data
-from Subgraphs.IndustryNodes import Insurance_Data
+from CompanyNodes import Axa_Data, Hdi_Data
+from IndustryNodes import Insurance_Data
 
 
 class InsuranceSubGraph:
@@ -13,7 +13,7 @@ class InsuranceSubGraph:
 
     def Insurance_create_sub_grapgh(self, graph: Graph, parent_node: Node):
         # Create Nodes
-        node_Insurance = Node(Insurance_Data.CONTENT,Insurance_Data.TITEL,Insurance_Data.IMAGE_NAME, radius=8, color=[204, 51, 255])
+        node_Insurance = Node(Insurance_Data.CONTENT, Insurance_Data.TITEL, Insurance_Data.IMAGE_NAME, radius=8, color=[204, 51, 255])
         node_Axa = Node(Axa_Data.CONTENT, Axa_Data.TITEL, Axa_Data.IMAGE_NAME)
         node_Hdi = Node(Hdi_Data.CONTENT, Hdi_Data.TITEL, Hdi_Data.IMAGE_NAME)
 

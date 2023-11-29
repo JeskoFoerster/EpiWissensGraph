@@ -18,45 +18,32 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 from GraphModel.Graph import Graph
 from GraphModel.Node import Node
 
-# import all our Subgraphs
-from Subgraphs.InformationTechnologyGraph import InformationTechnologySubGraph
-from Subgraphs.ConsumerGoodsGraph import ConsumerGoodsSubGraph
-from Subgraphs.MediaAndEntertainmentGraph import MediaAndEntertainmentSubGraph
-from Subgraphs.EnergyGraph import EnergySubGraph
-from Subgraphs.InsuranceGraph import InsuranceSubGraph
-from Subgraphs.Aerospace import AerospaceSubGraph
-from Subgraphs.CloudComputing import CloudComputingGraph
-from Subgraphs.MechanicalEngineering import MechanicalEngineeringGraph
-from Subgraphs.Cybersecurity import CybersecurityGraph
-from Subgraphs.Consulting import ConsultingGraph
-from Subgraphs.PharmaceuticalsAndHealth import PharmaceuticalsAndHealthGraph
-from Subgraphs.FinancialServices import FinancialServicesGraph
-from Subgraphs.AutomotiveIndustry import AutomotiveIndustry
+# import all our Industry's
+
+
+# import all Company's
 
 
 class GraphContent:
 
     def __init__(self, graph: Graph):
+        self.create_industy_nodes()
         self.create_company_nodes(graph)
+        self.connect_industry_with_node()
+
+
+    def create_industy_nodes(self):
+        print("")
 
     def create_company_nodes(self, graph):
 
         main_note = Node("Das ist die Main-Node", "Main-Node", "example.png", radius=10, color=[153, 51, 255])
         graph.add_new_node_to_graph(main_note)
 
-        # all SubGraphs here:
-        InformationTechnologySubGraph(main_note, graph)
-        ConsumerGoodsSubGraph(main_note, graph)
-        AerospaceSubGraph(main_note, graph)
-        MediaAndEntertainmentSubGraph(main_note, graph)
-        EnergySubGraph(main_note, graph)
-        InsuranceSubGraph(main_note, graph)
-        CloudComputingGraph(main_note, graph)
-        MechanicalEngineeringGraph(main_note, graph)
-        CybersecurityGraph(main_note, graph)
-        ConsultingGraph(main_note, graph)
-        PharmaceuticalsAndHealthGraph(main_note, graph)
-        FinancialServicesGraph(main_note, graph)
-        AutomotiveIndustry(main_note, graph)
+        # all company nodes here:
+
+
+    def connect_nodes_to_industy(self):
+        print("")
 
 

@@ -2,8 +2,10 @@ from GraphModel.Graph import Graph
 from GraphModel.Node import Node
 
 # import all the companys in the subgraph
-from Subgraphs.CompanyNodes import Netflix_Data, ESLGaming_Data, RiotGames_Data
-from Subgraphs.IndustryNodes import MediaAndEntertainment_Data
+from CompanyNodes import ESLGaming_Data
+from CompanyNodes import RiotGames_Data, Netflix_Data
+from IndustryNodes import MediaAndEntertainment_Data
+
 
 class MediaAndEntertainmentSubGraph:
 

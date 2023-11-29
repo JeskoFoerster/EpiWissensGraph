@@ -2,8 +2,9 @@ from GraphModel.Graph import Graph
 from GraphModel.Node import Node
 
 # import all the companys in the subgraph
-from Subgraphs.CompanyNodes import SpaceX_Data, Boeing_Data
-from Subgraphs.IndustryNodes import Aerospace_Data
+from CompanyNodes import SpaceX_Data
+from CompanyNodes import Boeing_Data
+from IndustryNodes import Aerospace_Data
 class AerospaceSubGraph:
 
     def __init__(self, parent_node: Node, graph: Graph):
