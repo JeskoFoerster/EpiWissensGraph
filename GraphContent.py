@@ -25,10 +25,8 @@ from Subgraphs.MediaAndEntertainmentGraph import MediaAndEntertainmentSubGraph
 from Subgraphs.EnergyGraph import EnergySubGraph
 from Subgraphs.InsuranceGraph import InsuranceSubGraph
 from Subgraphs.Aerospace import AerospaceSubGraph
-from Subgraphs.ArtificialIntelligenceGraph import ArtificialIntelligenceGraph
 from Subgraphs.CloudComputing import CloudComputingGraph
 from Subgraphs.MechanicalEngineering import MechanicalEngineeringGraph
-from Subgraphs.SoftwareAsService import SoftwareAsServiceGraph
 from Subgraphs.Cybersecurity import CybersecurityGraph
 from Subgraphs.Consulting import ConsultingGraph
 from Subgraphs.PharmaceuticalsAndHealth import PharmaceuticalsAndHealthGraph
@@ -51,10 +49,8 @@ class GraphContent:
         MediaAndEntertainmentSubGraph(main_note, graph)
         EnergySubGraph(main_note, graph)
         InsuranceSubGraph(main_note, graph)
-        ArtificialIntelligenceGraph(main_note, graph)
         CloudComputingGraph(main_note, graph)
         MechanicalEngineeringGraph(main_note, graph)
-        SoftwareAsServiceGraph(main_note, graph)
         CybersecurityGraph(main_note, graph)
         ConsultingGraph(main_note, graph)
         PharmaceuticalsAndHealthGraph(main_note, graph)
