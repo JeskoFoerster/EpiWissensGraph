@@ -1,0 +1,33 @@
+# id:0
+
+TITEL = "Mercedes Benz"
+
+CONTENT = (
+"## Beschreibung:\n"
+"Mercedes-Benz, ein angesehener Automobilkonzern, hat sich einen Namen in der Automobilindustrie gemacht. Gegründet von Karl Benz und Gottlieb Daimler, ist das Unternehmen bekannt für seine hochwertigen Fahrzeuge und wegweisenden Innovationen. Mercedes-Benz bietet eine breite Palette an Fahrzeugen an, darunter Luxusautos, Limousinen, Sportwagen, SUVs und Nutzfahrzeuge. Das Unternehmen legt besonderen Wert auf Qualität, Sicherheit und Komfort in all seinen Fahrzeugmodellen. Die Marke Mercedes-Benz ist berühmt für ihre kontinuierliche Einführung wegweisender Technologien in der Automobilwelt. Das Unternehmen hat viele Sicherheitssysteme wie ABS und ESP eingeführt und setzt auf innovative Technologien in seinen Fahrzeugen. Die fortlaufende Entwicklung umweltfreundlicher Technologien ist ebenfalls ein Fokus von Mercedes-Benz. Das Unternehmen arbeitet aktiv an Elektro- und Hybridfahrzeugen, um nachhaltigere Mobilitätslösungen anzubieten. Mercedes-Benz ist international bekannt für seine hochwertigen Fahrzeuge und bleibt ein Vorreiter in der Automobilbranche durch seine Tradition von Innovation, Qualität und technologischem Fortschritt.\n"
+"\n"
+"## Historie:\n"
+"Gerne! Hier ist eine Zusammenfassung der Entstehungsgeschichte von Mercedes-Benz: Die Geschichte von Mercedes-Benz beginnt mit den wegweisenden Erfindungen und Innovationen von drei bedeutenden Persönlichkeiten: Gottlieb Daimler, Carl Benz und Wilhelm Maybach. Gottlieb Daimler, geboren 1834, verließ 1882 nach Differenzen eine Gasmotorenfabrik und richtete in Cannstatt eine eigene Versuchswerkstatt ein. Dort konzentrierte er sich darauf, Motoren zu entwickeln, die ausschließlich mit Benzin betrieben werden. Gemeinsam mit Wilhelm Maybach gelang ihnen 1884 die Konstruktion eines leistungsstarken Verbrennungsmotors, bekannt als die Standuhr, der die Grundlage für Fahrzeuge legte. Carl Benz, geboren 1844, gründete 1883 zusammen mit Partnern die Firma Benz & Cie. Rheinische Gasmotoren-Fabrik Mannheim. Benz entwickelte den Viertaktmotor, der den ersten Patent-Motorwagen im Jahr 1886 antrieb, das erste Automobil der Welt. Seine Frau Bertha Benz unternahm 1888 die erste Fernfahrt mit einem solchen Fahrzeug, um dessen Alltagstauglichkeit zu beweisen. Wilhelm Maybach, geboren 1846, arbeitete eng mit Gottlieb Daimler zusammen und entwickelte wegweisende Konstruktionen wie den Riemenantrieb und den Phönix-Motor. Nach Unstimmigkeiten bei der Daimler-Motoren-Gesellschaft (DMG) verließ er das Unternehmen und entwickelte später unter eigenem Namen legendäre Fahrzeuge. Die DMG, gegründet 1890, diente der Verwertung von Daimlers Erfindungen. Die Rückkehr von Daimler und Maybach zur DMG im Jahr 1895 brachte neue Entwicklungen hervor, darunter den Riemenwagen als erstes in nennenswerten Stückzahlen hergestelltes Automobil. Im Jahr 1901 schuf Wilhelm Maybach den ersten modernen Mercedes, den Mercedes 35 PS. Dieses Fahrzeug markierte das Ende des Kutschenzeitalters im Automobilbau und beeinflusste die Entwicklung von Fahrzeugen stark. Die Daimler-Benz AG wurde 1926 durch die Fusion der Daimler-Motoren-Gesellschaft und Benz & Cie. gegründet. Das charakteristische Mercedes-Benz-Emblem, der dreizackige Stern, der für Qualität und Innovation steht, wurde zu einem weltweit bekannten Symbol. Die Geschichte von Mercedes-Benz ist von der Erfindung wegweisender Motoren, Automobilmodelle und Technologien geprägt, die die Automobilindustrie revolutionierten und die Grundlage für die moderne Automobilwelt schufen.\n"
+"\n"
+"## Mission/Ziel:\n"
+"Mercedes-Benz verfolgt eine Vielzahl von Zielen, die darauf ausgerichtet sind, seine führende Position als Automobilhersteller zu festigen und weiter auszubauen. Die Grundlage dieser Ziele bildet eine konsequente Ausrichtung auf Innovation und Technologie. Das Unternehmen strebt ständig nach Fortschritt in verschiedenen Bereichen, darunter Elektro- und Wasserstoffantriebe, autonomes Fahren, Konnektivität und andere wegweisende Technologien. Ein weiterer wichtiger Aspekt der Unternehmensziele ist die Nachhaltigkeit. Mercedes-Benz setzt sich stark für nachhaltige Mobilität ein, indem es Fahrzeuge mit reduzierten Emissionen entwickelt, erneuerbare Energien einsetzt und sich für Recycling und eine Kreislaufwirtschaft in der Produktion engagiert. Dies spiegelt das Bestreben wider, umweltfreundlichere Lösungen zu schaffen und gleichzeitig zur Reduzierung des ökologischen Fußabdrucks beizutragen. Die Firma hat zudem klare Ziele in Bezug auf die Kundenzufriedenheit. Qualität, Zuverlässigkeit und exzellenter Kundenservice sind Eckpfeiler, um den Kunden ein erstklassiges Fahrerlebnis zu bieten. Mercedes-Benz strebt danach, durch hochwertige Fahrzeuge, Serviceleistungen und innovative digitale Angebote die Erwartungen der Kunden zu übertreffen. Wirtschaftliches Wachstum bildet ebenfalls einen wesentlichen Bestandteil der Unternehmensziele. Mercedes-Benz arbeitet kontinuierlich an der Erschließung neuer Märkte und dem Ausbau seines Produktportfolios, um seine Position in der Automobilbranche zu festigen und weiter zu stärken. Neben der Automobilproduktion engagiert sich Mercedes-Benz auch in der Entwicklung innovativer Mobilitätslösungen. Dazu gehören beispielsweise Carsharing-Modelle, Ride-Hailing-Dienste und andere Formen der urbanen Mobilität. Das Ziel ist es, flexiblere und effizientere Transportmöglichkeiten anzubieten, die den sich wandelnden Anforderungen an Mobilität gerecht werden. Insgesamt strebt Mercedes-Benz danach, seine Position als Innovationsführer in der Automobilindustrie zu behaupten. Das Unternehmen arbeitet daran, wegweisende Technologien zu entwickeln, nachhaltige Mobilität zu fördern, die Kundenzufriedenheit zu steigern, wirtschaftlich zu wachsen und neue Formen der Mobilität zu gestalten.\n"
+"\n"
+"**Website:**\n"
+"www.mercedes-benz.com/de/\nhttps://group.mercedes-benz.com/karriere/studenten/ferienjobs/\n"
+"\n"
+"**Mitarbeiterzahl:**\n"
+"Zum Stand 2022 hat der Konzern über 170.000 Mitarbeiter weltweit.\n"
+"\n"
+"**Praxissemester/Praktikum:**\n"
+"Ja\n"
+"\n"
+"**Kontakt:**\n"
+"Mercedes-Benz AG\nMercedesstraße 120\n70372 Stuttgart\nTelefon: +49 711 17 - 0\nE-Mail: dialog.mb@mercedes-benz.com\n"
+"\n"
+"**Quellen:**\n"
+"*-Bild: https://images.app.goo.gl/st7Zn8nShLWTTgQw9\n"
+"*-https://www.mercedes-benz.com/de/innovation/meilensteine/unternehmensgeschichte/\n"
+"*-www.mercedes-benz.com\n"
+)
+
+IMAGE_NAME = "mercedes_logo.png"

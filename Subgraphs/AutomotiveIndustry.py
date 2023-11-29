@@ -3,7 +3,7 @@ from GraphModel.Node import Node
 
 # import all the companys in the subgraph
 # EXAMPLE from Subgraphs.CompanyNodes import SpaceX_Data
-from Subgraphs.CompanyNodes import  Tesla_Data, Bmw_Data, Porsche_Data, Audi_Data, Volkswagen_Data
+from Subgraphs.CompanyNodes import  Tesla_Data, Bmw_Data, Porsche_Data, Audi_Data, Volkswagen_Data, MercedesBenz_Data
 class AutomotiveIndustry:
 
     def __init__(self, parent_node: Node, graph: Graph):
@@ -17,6 +17,7 @@ class AutomotiveIndustry:
         node_porsche = Node(Porsche_Data.CONTENT, Porsche_Data.TITEL, Porsche_Data.IMAGE_NAME)
         node_audi = Node(Audi_Data.CONTENT, Audi_Data.TITEL, Audi_Data.IMAGE_NAME)
         node_volkswagen = Node(Volkswagen_Data.CONTENT, Volkswagen_Data.TITEL, Volkswagen_Data.IMAGE_NAME)
+        node_mercedesbenz = Node(MercedesBenz_Data.CONTENT, Volkswagen_Data.TITEL, MercedesBenz_Data.IMAGE_NAME)
 
         parent_node.connect(node_automotive_industry)
         node_automotive_industry.connect(node_tesla)
@@ -24,6 +25,8 @@ class AutomotiveIndustry:
         node_automotive_industry.connect(node_porsche)
         node_automotive_industry.connect(node_audi)
         node_automotive_industry.connect(node_volkswagen)
+        node_automotive_industry.connect(node_mercedesbenz)
+
 
         graph.add_new_node_to_graph(node_automotive_industry)
         graph.add_new_node_to_graph(node_tesla)
@@ -31,3 +34,4 @@ class AutomotiveIndustry:
         graph.add_new_node_to_graph(node_porsche)
         graph.add_new_node_to_graph(node_audi)
         graph.add_new_node_to_graph(node_volkswagen)
+        graph.add_new_node_to_graph(node_mercedesbenz)
