@@ -7,9 +7,11 @@ CONTENT = ( "## Beschreibung:\n"
             "\n\nAldi Nord zeichnet sich durch eine klare Fokussierung auf preiswerte Eigenmarken, effiziente Logistik und ein begrenztes, aber sorgfältig ausgewähltes Sortiment aus. Der Discounter setzt auf minimalistische Ladenlayouts und schnelle Kassentransaktionen, um ein effizientes Einkaufserlebnis zu bieten. Durch den Verzicht auf teure Werbekampagnen und aufwendige Präsentation der Produkte kann Aldi Nord niedrige Preise für seine Kunden aufrechterhalten."
             "\n\nDie Philosophie von Aldi Nord betont Sparsamkeit, Qualität und Kundenzufriedenheit. Die Kunden schätzen die Möglichkeit, hochwertige Produkte zu wettbewerbsfähigen Preisen zu erwerben, während das Unternehmen weiterhin den Grundsätzen von Einfachheit und Effizienz treu bleibt. [1][2][3]\n"
             "\n"
-            "## Website:\n"
-            "https://www.aldi-nord.de\n"
+            
+            "## Warum ist Aldi Nord für Informatiker interessant?:\n"
+            "Aldi Nord bietet für Informatiker Interesse durch die Notwendigkeit der Verwaltung komplexer Datenströme im Einzelhandelsumfeld, einschließlich Lagerverwaltung und Verkaufsdaten. Die Entwicklung und Optimierung von IT-Systemen für Filialen sowie die Implementierung von Sicherheitslösungen sind relevante Aufgaben. Zudem besteht die Möglichkeit, innovative Technologien in den Betriebsablauf zu integrieren.\n"
             "\n"
+            
             "## Historie:\n"
             "Mit einer beeindruckenden Kaufmannstradition, die vor über 110 Jahren in einem Lebensmittelladen in Essen-Schonnebeck begann, haben die Brüder Karl und Theo Albrecht das Fundament für eine international erfolgreiche Unternehmensgruppe geschaffen. Der Grundstein wurde am 10. April 1913 gelegt, als der Vater der zukünftigen Unternehmensgründer den \"Handel mit Backwaren\" aufnahm. Anna, die Mutter, eröffnete 1914 ihren ersten Lebensmittelladen, der als Keimzelle für das kundenorientierte Geschäftsprinzip diente, mit dem die Söhne später in Deutschland Handelsgeschichte schreiben sollten."
             "\n\n"
@@ -19,6 +21,7 @@ CONTENT = ( "## Beschreibung:\n"
             "\n\n"
             "Die Sortimentsentwicklung von ALDI war stets kundenorientiert. Von Mehl, Zucker und Konserven in den 60er-Jahren über Kosmetika und erste Aktionsartikel bis hin zu Frischfleisch, frisch gebackenem Brot, Elektronikartikeln, hochwertigem Olivenöl und Gourmetprodukten in den 90er-Jahren hat ALDI sein Angebot kontinuierlich erweitert. Das Unternehmen hat auch einen Beitrag zur Nachhaltigkeit geleistet, indem es Bio-Produkte, zertifizierte Holz- und Papiererzeugnisse, nachhaltig produzierte Fischprodukte und Produkte unter Berücksichtigung ökologischer und sozialer Kriterien in sein Sortiment aufgenommen hat. Insgesamt bleibt das ALDI Discountkonzept seit über 60 Jahren erfolgreich und relevant. [1][2]"
             "\n\n"
+            
             "## Mission/Ziele:\n"
             "ALDI Nord verfolgt eine klare Mission der kundenorientierten Sortimentsentwicklung und Nachhaltigkeit. Über die Jahrzehnte hinweg hat das Unternehmen sein Angebot stetig erweitert, angefangen bei grundlegenden Lebensmitteln bis hin zu Luxusgütern, Elektronik, hochwertigem Olivenöl und Gourmetprodukten. Dabei legt ALDI Nord großen Wert auf Innovation und die Berücksichtigung ökologischer sowie sozialer Kriterien bei der Sortimentsgestaltung."
             "\n\n"
@@ -26,15 +29,22 @@ CONTENT = ( "## Beschreibung:\n"
             "\n\n"
             "In Bezug auf zukünftige Vorhaben demonstriert ALDI Nord sein Engagement für nachhaltige Mobilität. Das Unternehmen plant europaweit den bedarfsgerechten Aufbau von Ladestationen für Elektrofahrzeuge auf den Filial-Parkplätzen. Dieser Schritt unterstreicht das Bestreben von ALDI Nord, nicht nur im Einzelhandel, sondern auch im Bereich der umweltfreundlichen Mobilität eine Vorreiterrolle einzunehmen. Insgesamt zeigt sich, dass ALDI Nord kontinuierlich bestrebt ist, durch Innovation, Effizienz und Nachhaltigkeit die Erwartungen seiner Kunden zu übertreffen und einen Beitrag zu einer verantwortungsbewussten Unternehmensführung zu leisten. [4][5]"
             "\n\n"
+            
+            "## Website:\n"
+            "https://www.aldi-nord.de\n"
+            "\n"
+            
             "## Mitarbeiterzahl:\n"
             "Europaweit sind in 8 Ländern über 5.400 Filialen mit mehr als 91.000 Mitarbeitern vertreten. [4]\n"
             "\n"
+            
             "## Kontakt:\n"
             "-https://www.aldi-nord.de/tools/kontakt.html\n"
             "-https://www.aldi-nord.de/karriere/\n"
             "-https://www.aldi-nord.de/karriere/tech.html\n"
             "-0800 7234870\n"
             "\n"
+            
             "## Quellen:\n"
             "-[Bild] https://upload.wikimedia.org/wikipedia/commons/2/20/ALDI_Nord_Logo_2015.png\n-https://www.aldi-nord.de/unternehmen/ueber-aldi-nord/110-jahre-kaufmannstradition.html [1]\n-https://www.aldi-nord.de/unternehmen/immobilien-und-expansion/filialkonzept.html [2]\n-https://www.aldi-nord.de/unternehmen/immobilien-und-expansion/expansionsstrategie.html [3]\n-https://www.aldi-nord.de/karriere/wir-ueber-uns/arbeiten-bei-aldi-nord.html [4]\n- https://www.aldi-nord.de/unternehmen/immobilien-und-expansion/energiemanagement.html [5]")
 

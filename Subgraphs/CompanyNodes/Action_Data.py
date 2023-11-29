@@ -14,10 +14,6 @@ CONTENT = ( "## Beschreibung:\n"
             "Als Informatiker bietet die Zusammenarbeit mit Action die Möglichkeit, sich in die Entwicklung und Pflege einer effizienten IT-Infrastruktur im Einzelhandel einzubringen. Das Datenmanagement für Lagerbestände und Verkaufsstatistiken erfordert Kenntnisse in Datenbankdesign und -management. Automatisierungslösungen, IT-Sicherheit und die Integration innovativer Technologien sind ebenfalls relevante Bereiche, in denen Informatiker einen Mehrwert schaffen können.\n"
             "\n"
            
-            "## Website:\n"
-            "https://www.action.com\n"
-            "\n"
-           
             "## Historie:\n"
             "Vor 30 Jahren begann die beeindruckende Geschichte von Action in einem kleinen Geschäft in Enkhuizen im Jahr 1993. Das Unternehmen wurde mit dem klaren Ziel gegründet, Kunden mit einem vielfältigen und ständig wechselnden Sortiment zu Tiefstpreisen zu überraschen. Von bescheidenen Anfängen aus hat sich Action zu einem der am schnellsten wachsenden Discounter in Europa entwickelt."
             "Das Unternehmen verzeichnete einen bemerkenswerten Aufstieg und betreibt heute über 2300 Filialen in 11 Ländern. Jede Woche werden diese Filialen von mehr als 15 Millionen Kunden besucht, während zusätzliche 6.5 Millionen Menschen wöchentlich online auf Action.com einkaufen. Diese Expansion spiegelt nicht nur die Beliebtheit von Action wider, sondern auch die Fähigkeit des Unternehmens, mit den sich ständig verändernden Anforderungen des Einzelhandels Schritt zu halten.[3]\n"
@@ -26,6 +22,10 @@ CONTENT = ( "## Beschreibung:\n"
             "## Mission/Ziele:\n"
             "Die Mission von Action ist klar definiert: \"Kleine Preise, große Freude.\" Seit drei Jahrzehnten steht das Unternehmen für erschwingliche Preise und die Bereitstellung eines breiten Sortiments, das regelmäßig erneuert wird. Action verfolgt das Ziel, seinen Kunden stets ein einzigartiges Einkaufserlebnis zu bieten, das von Vielfalt, Qualität und vor allem von erschwinglichen Preisen geprägt ist."
             "Das Bestreben von Action, \"große Freude\" zu schaffen, geht über den reinen Einkauf hinaus. Das Unternehmen möchte, dass Kunden nicht nur mit ihren Einkäufen zufrieden sind, sondern auch Freude daran haben, immer wieder etwas Neues und Überraschendes zu entdecken. Diese Mission spiegelt sich in der kontinuierlichen Innovation des Sortiments wider, wodurch Action seinen Kunden stets frische und attraktive Produkte zu niedrigen Preisen bieten kann.[1][3]\n"
+            "\n"
+            
+            "## Website:\n"
+            "https://www.action.com\n"
             "\n"
            
             "## Mitarbeiterzahl:\n"
