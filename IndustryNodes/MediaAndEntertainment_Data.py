@@ -1,4 +1,4 @@
-TITEL = "MediaAndEntertainment"
+TITEL = "Medien und Unterhaltung"
 
 CONTENT = (
     "## Beschreibung:\n"
