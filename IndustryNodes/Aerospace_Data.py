@@ -2,7 +2,7 @@ TITEL = "Luft und Raumfahrt"
 
 CONTENT = (
     "## Beschreibung:\n"
-    "Foobar\n"
+    "\n"
     "## Quellen:\n"
     "Bild:\n")
 
