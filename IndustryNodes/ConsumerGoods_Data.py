@@ -2,11 +2,10 @@ TITEL = "Konsumgüter"
 
 CONTENT = (
     "## Beschreibung:\n"
-    "Ausgewählte Firmen die Konsumgüter vertreiben\n"
+    "Konsumgüter sind Produkte, die von Endverbrauchern oder Haushalten erworben werden, um ihren täglichen Bedarf zu decken oder ihre Lebensqualität zu verbessern. Diese Produkte decken ein breites Spektrum ab, angefangen bei grundlegenden Gütern wie Lebensmitteln, Kleidung und Haushaltswaren bis hin zu langlebigen Gebrauchsgütern wie Elektronik, Möbeln und Autos. In der Welt der Konsumgüter gibt es zwei Hauptkategorien: Verbrauchsgüter und langlebige Gebrauchsgüter. Verbrauchsgüter sind typischerweise Produkte des täglichen Bedarfs, die regelmäßig konsumiert und ersetzt werden müssen, wie Lebensmittel, Hygieneartikel und Verpackungen. Langlebige Gebrauchsgüter hingegen sind Produkte, die für einen längeren Zeitraum genutzt werden können, wie Autos, Möbel, Haushaltsgeräte und elektronische Geräte. Diese Güter werden in unterschiedlichen Preisklassen, Qualitätsstufen und Marken angeboten, um den diversen Bedürfnissen und Präferenzen der Verbraucher gerecht zu werden. Die Nachfrage nach Konsumgütern wird maßgeblich von Faktoren wie Einkommen, Trends, Werbung, saisonalen Schwankungen und demografischen Merkmalen beeinflusst. Hersteller und Einzelhändler von Konsumgütern legen großen Wert auf Produktentwicklung, Marketingstrategien und Vertriebskanäle, um ihre Produkte erfolgreich auf dem Markt zu platzieren. Produktqualität, Markentreue, Preisgestaltung und Verfügbarkeit spielen eine entscheidende Rolle, um die Gunst der Verbraucher zu gewinnen. Der Markt für Konsumgüter ist äußerst vielfältig und dynamisch. Ständig entstehen neue Trends, Innovationen und Veränderungen. Die Globalisierung hat dazu beigetragen, dass Konsumgüter aus verschiedenen Teilen der Welt verfügbar sind und Unternehmen ermöglicht, ihre Produkte international zu vertreiben und neue Märkte zu erschließen.  Insgesamt sind Konsumgüter ein unverzichtbarer Bestandteil des täglichen Lebens und spiegeln die vielfältigen Bedürfnisse, Vorlieben und Lebensstile der Verbraucher wider. Sie formen die Wirtschaft und beeinflussen sowohl lokal als auch global die Entscheidungen und Kaufverhalten der Menschen.\n"
     "\n"
     "**Quellen:**\n"
     "*-[Image]https://www.adito.de/knowhow/blog/konsumgueter\n"
-    "*-[1] www.....\n"
-    "*-[2] www.....\n"
+    "*-https://www.adito.de/knowhow/blog/konsumgueter\n"
 )
 IMAGE_NAME = "konsum.png"
