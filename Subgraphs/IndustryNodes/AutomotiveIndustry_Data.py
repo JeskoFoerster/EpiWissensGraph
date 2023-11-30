@@ -2,12 +2,12 @@ TITEL = "Automobilindustrie"
 
 CONTENT = (
     "## Beschreibung:\n"
-    "Text 1\n"
+    "Die deutsche Automobilindustrie gilt als einer der bedeutendsten Wirtschaftszweige des Landes und spielt eine zentrale Rolle in der globalen Automobilproduktion. Sie setzt sich aus verschiedenen Segmenten zusammen, darunter Fahrzeug- und Motorenhersteller sowie Zulieferer, die gemeinsam ein komplexes Netzwerk bilden. Diese Branche erwirtschaftet einen enormen Umsatz und beschäftigt sowohl direkt als auch indirekt eine große Anzahl von Menschen in Deutschland. Die Automobilindustrie ist maßgeblich für die Wirtschaft des Landes, da sie 2021 einen Umsatz von über 411 Milliarden Euro erzielte und direkt fast 786.000 Personen beschäftigte. Ein Großteil dieses Umsatzes wird von Fahrzeug- und Motorenherstellern erwirtschaftet, die rund drei Viertel zum Gesamtumsatz beitragen. Die Automobilzulieferer sowie Hersteller von Aufbauten und Anhängern ergänzen diesen Sektor.Deutschland als Automobilstandort hat eine ausgeprägte Wertschöpfungskette, die stark diversifiziert ist. Dies bedeutet, dass auch Branchen, die nicht direkt mit dem Automobilbau in Verbindung stehen, wie etwa Ingenieurbüros, Werkstätten und Tankstellen, von dieser Industrie abhängig sind und davon profitieren. Besonders die mittelständisch geprägten Zuliefererunternehmen spielen eine wesentliche Rolle, da sie etwa 70 Prozent der Wertschöpfung der Automobilindustrie am Standort Deutschland generieren. Ein wesentlicher Faktor des Erfolgs der deutschen Automobilindustrie ist ihre Innovationsführerschaft. Die Unternehmen investieren massiv in Forschung und Entwicklung, um neue Technologien und Produkte zu entwickeln. Sie kooperieren eng mit Forschungseinrichtungen und Hochschulen, was zu einzigartigen Innovationen führt und dazu beiträgt, dass Deutschland als Hochlohnstandort im globalen Wettbewerb bestehen kann. Die Automobilindustrie ist stark international ausgerichtet und lebt vom Export. Rund 76 Prozent der in Deutschland produzierten Pkw werden in andere Länder exportiert. Allerdings stellen zunehmende handelshemmende Maßnahmen vieler Länder eine Herausforderung dar und führen zu einer Verzerrung des Wettbewerbs. Um diesen Herausforderungen zu begegnen, hat die deutsche Automobilindustrie Werke in wachstumsstarken Regionen im Ausland errichtet. Trotz ihrer globalen Präsenz ist die Industrie auch von der Diversifizierung von Liefer- und Rohstoffketten sowie von faireren Handelsbedingungen abhängig. Die Bundesregierung setzt sich daher aktiv für offene Märkte und einen fairen Marktzugang ein. Sie vertritt die Interessen des Wirtschaftsstandorts Deutschland in verschiedenen internationalen Handelsinitiativen und bemüht sich, unfaire Handelspraktiken zu bekämpfen. Insgesamt bildet die deutsche Automobilindustrie eine wichtige Säule der deutschen Wirtschaft. Sie ist stark vernetzt, innovativ und international ausgerichtet, trägt maßgeblich zur Wertschöpfung im Land bei und steht vor Herausforderungen, die durch die Globalisierung und internationale Handelspolitik bedingt sind.\n"
     "\n"
     "**Quellen:**\n"
-    "*-[Image] www.....\n"
-    "*-[1] www.....\n"
-    "*-[2] www.....\n"
+    "*-Bild: https://images.app.goo.gl/7jeFGffaiTiizmDe8\n"
+    "*-https://www.bmwk.de/Redaktion/DE/Textsammlungen/Branchenfokus/Industrie/branchenfokus-automobilindustrie.html\n"
+    "*-https://de.statista.com/outlook/mmo/automobile/weltweit\n"
 )
 
-IMAGE_NAME = "image_placeholder.png"
+IMAGE_NAME = "automobil.png"
