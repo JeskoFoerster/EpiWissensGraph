@@ -2,8 +2,10 @@ from GraphModel.Graph import Graph
 from GraphModel.Node import Node
 
 # import all the companys in the subgraph
-from Subgraphs.CompanyNodes import AldiNord_Data, Lidl_Data, Action_Data, Obi_Data, Nestle_Data, Otto_Data
-from Subgraphs.IndustryNodes import ConsumerGoods_Data
+from CompanyNodes import Lidl_Data, Action_Data, Obi_Data
+from CompanyNodes import AldiNord_Data, Nestle_Data, Otto_Data
+from IndustryNodes import ConsumerGoods_Data
+
 
 class ConsumerGoodsSubGraph:
 
@@ -12,7 +14,7 @@ class ConsumerGoodsSubGraph:
 
     def consumer_goods_create_sub_grapgh(self, graph: Graph, parent_node: Node):
         # Create Nodes
-        node_ConsumerGoods = Node(ConsumerGoods_Data.CONTENT,ConsumerGoods_Data.TITEL,ConsumerGoods_Data.IMAGE_NAME, radius=8, color=[204, 51, 255])
+        node_ConsumerGoods = Node(ConsumerGoods_Data.CONTENT, ConsumerGoods_Data.TITEL, ConsumerGoods_Data.IMAGE_NAME, radius=8, color=[204, 51, 255])
 
         node_AldiNord = Node(AldiNord_Data.CONTENT, AldiNord_Data.TITEL, AldiNord_Data.IMAGE_NAME)
         node_Lidl = Node(Lidl_Data.CONTENT, Lidl_Data.TITEL, Lidl_Data.IMAGE_NAME)

@@ -2,8 +2,11 @@ from GraphModel.Graph import Graph
 from GraphModel.Node import Node
 
 # import all the companys in the subgraph
-from Subgraphs.CompanyNodes import Coseon_Data, SchneiderElectric_Data, ElectronicArts_Data, Google_Data, ReweDigital_Data, ParcIT_Data, Zeiss_Data, SAP_Data, Netcologne_Data
-from Subgraphs.IndustryNodes import InformationTechnology_Data
+from CompanyNodes import ElectronicArts_Data, Netcologne_Data
+from CompanyNodes import Coseon_Data, Google_Data, SchneiderElectric_Data, SAP_Data, Zeiss_Data, ParcIT_Data, \
+    ReweDigital_Data
+from IndustryNodes import InformationTechnology_Data
+
 
 class InformationTechnologySubGraph:
 
