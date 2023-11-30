@@ -1,9 +1,20 @@
-TITEL = "Energy"
+TITEL = "Energie Industrie"
 
 CONTENT = (
-"## Beschreibung:\n"
-"Energy\n"
-"## Quellen:\n"
-"Bild: https://www.freepik.com/free-vector/electric-power_4330659.htm# \n  Image by macrovector on Freepik \n")
-
+    "## Beschreibung:\n"
+    "In der Umschwungszeit der Energiewende ist die Informatik direkt mit eingeschlossen.  \n"
+    "Zwei geeignete Unternehmen haben wir uns Angeschaut,um Festzustellen, was Sie bewirken können,"
+    " und was für Chancen Sie als Informatikstudent haben um in diesem Bereich Arbeiten zu können.\n"
+    "Folgend zeigen wir Ihnen Unternehmen welche verschiedene und vielreiche Positionen haben\n"
+    "Über 44% vom Strom wird aus erneuerbaren Energien gewonnen, wir zeigen Ihnen Unternehmen wo sie Teil von\n"
+    "der Energiewende sein können und direkt mitwirken können.\n"
+    "Die IT ist ein wichtiger Knotenpunkt zur Verbindungen von Produktion und Infrastruktur,\n"
+    "bis hin zur Automatisierung und Standardisierung des Prozesses zur Energieflexibilitätsvermarktung\n"
+    "Wir bieten Ihnen einen Einblick um einen Job zu finden, der ihren Werten entspricht.\n"
+    "\n"
+    "**Quellen:**\n"
+    "*-[Image]https://www.freepik.com/free-vector/electric-power_4330659.htm#\n Image by macrovector on Freepik \n"
+    "*-[1] https://link.springer.com/article/10.1365/s40702-020-00679-8\n"
+    #"*-[2] www.....\n"
+    )
 IMAGE_NAME = "energy_logo.png"
