@@ -1,6 +1,6 @@
 # id:54
 
-TITEL = "Carl Zeiss AG"
+TITEL = "Carl Zeiss"
 
 CONTENT = (
     "## Beschreibung:\n"

@@ -1,6 +1,6 @@
 # id:36
 
-TITEL = "OBI GmbH & Co. KG"
+TITEL = "OBI"
 
 CONTENT = ("## Beschreibung:\n"
            "OBI ist ein führendes Unternehmen im Bereich Bau- und Heimwerkerbedarf, das sich darauf konzentriert, "

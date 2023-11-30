@@ -1,5 +1,5 @@
 # id: 11
-TITEL = "Innovas GmbH"
+TITEL = "Innovas"
 
 CONTENT = (
     "## Beschreibung:\n"

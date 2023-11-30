@@ -1,4 +1,4 @@
-TITEL = "Sollers Consulting GmbH"
+TITEL = "Sollers Consulting"
 
 CONTENT = ("## Beschreibung:\n"
            "Die Sollers Consulting GmbH ist ein führendes Unternehmen im Bereich der digitalen Transformation für "

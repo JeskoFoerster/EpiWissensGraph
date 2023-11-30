@@ -1,6 +1,6 @@
 # id:26
 
-TITEL = "NextKraftwerke GmbH"
+TITEL = "NextKraftwerke"
 
 CONTENT = (
     "## Beschreibung:\n"
