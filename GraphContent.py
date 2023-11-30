@@ -50,7 +50,7 @@ class GraphContent:
         self.pharmaceuticalsAndHealth = None
 
         self.create_main_node(graph)
-        self.create_industy_nodes(graph, self.main_node)
+        self.create_industry_nodes(graph, self.main_node)
         self.create_company_nodes(graph)
         self.connect_industry_with_node(graph)
 
@@ -59,7 +59,7 @@ class GraphContent:
         graph.add_new_node_to_graph(main_note)
         self.main_node = main_note
 
-    def create_industy_nodes(self, graph: Graph, main_node: Node):
+    def create_industry_nodes(self, graph: Graph, main_node: Node):
         bright_violet = [204, 51, 255]
 
         node_aerospace = Node(Aerospace_Data.CONTENT, Aerospace_Data.TITEL, Aerospace_Data.IMAGE_NAME, radius=8,
@@ -248,7 +248,8 @@ class GraphContent:
         graph.add_new_node_to_graph(node_volkswagen)
         graph.add_new_node_to_graph(node_zeiss)
 
-    def connect_industry_with_node(self, graph):
+    @staticmethod
+    def connect_industry_with_node(graph):
         nodes = graph.nodes
 
         for node in nodes:
