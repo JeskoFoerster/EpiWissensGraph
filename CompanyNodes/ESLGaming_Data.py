@@ -37,6 +37,7 @@ CONTENT = (
     "*-[2] https://en.wikipedia.org/wiki/ESL_(company)\n"
     "*-[3] https://esl.com"
     "*-[4] https://repositorio.iscte-iul.pt/handle/10071/20783\n"
+    "*-[5] https://eslfaceitgroup.com/career/"
 )
 
 IMAGE_NAME = "eslgaming_logo.png"
