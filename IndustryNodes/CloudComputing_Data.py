@@ -2,12 +2,11 @@ TITEL = "Cloud Computing"
 
 CONTENT = (
     "## Beschreibung:\n"
-    "Text 1\n"
+    "Cloud Computing bezeichnet die innovative Bereitstellung von Computing-Ressourcen über das Internet. Dabei werden verschiedenste Dienste wie Rechenleistung, Speicherplatz, Datenbanken, Netzwerke und Software von Cloud-Serviceanbietern zur Verfügung gestellt, ohne dass Nutzer auf lokale Server oder persönliche Geräte angewiesen sind. Diese Technologie bietet eine breite Palette von Diensten und Modellen, die es Unternehmen und Einzelpersonen ermöglichen, flexibel auf Ressourcen zuzugreifen und diese je nach Bedarf zu nutzen. Es gibt verschiedene Modelle des Cloud Computings, darunter Infrastructure as a Service (IaaS), Platform as a Service (PaaS) und Software as a Service (SaaS). IaaS ermöglicht es Nutzern, grundlegende IT-Infrastrukturen wie Rechenleistung und Speicher über das Internet zu nutzen und nach Bedarf zu skalieren. PaaS bietet Entwicklern eine Plattform, auf der sie Anwendungen entwickeln, ohne sich um die zugrunde liegende Infrastruktur kümmern zu müssen. SaaS stellt Anwendungen und Software als Dienst über das Internet zur Verfügung. Die Vorteile des Cloud Computings liegen in seiner Flexibilität, Skalierbarkeit und Kosteneffizienz. Unternehmen können Ressourcen je nach Bedarf skalieren und nur für die tatsächlich genutzten Dienste zahlen. Dies fördert die Effizienz und ermöglicht eine verbesserte Zusammenarbeit, da Teams unabhängig von ihrem Standort auf dieselben Daten und Anwendungen zugreifen können. Jedoch sind Sicherheit und Datenschutz wichtige Aspekte beim Einsatz von Cloud-Diensten. Unternehmen müssen sicherstellen, dass ihre Daten angemessen geschützt sind und die Sicherheitsrichtlinien der Cloud-Provider eingehalten werden. Insgesamt hat Cloud Computing die Art und Weise revolutioniert, wie Unternehmen ihre IT-Ressourcen verwalten und bereitstellen. Es trägt zur Effizienzsteigerung, Kostensenkung und Förderung von Innovationen bei, indem es flexible und skalierbare Lösungen für eine Vielzahl von Anforderungen bereitstellt. Trotz der Vorteile müssen Unternehmen jedoch die Sicherheitsaspekte im Auge behalten, um die Integrität und Vertraulichkeit ihrer Daten zu gewährleisten.\n"
     "\n"
     "**Quellen:**\n"
-    "*-[Image] www.....\n"
-    "*-[1] www.....\n"
-    "*-[2] www.....\n"
+    "*-Bild: https://images.app.goo.gl/LBU9JWS7mNtoCm2a6\n"
+    "*-https://www.ahd.de/was-ist-cloud-computing-definition\n"
 )
 
-IMAGE_NAME = "image_placeholder.png"
+IMAGE_NAME = "cloudcomp.png"
