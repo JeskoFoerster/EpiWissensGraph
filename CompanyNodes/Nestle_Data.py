@@ -1,6 +1,6 @@
 # id:7
 
-TITEL = "Nestlé S.A."
+TITEL = "Nestlé"
 
 CONTENT = ("## Beschreibung:\n"
            "Der Nestlé Konzern, als einer der weltweit größten Lebensmittel- und Getränkehersteller, steht für eine "

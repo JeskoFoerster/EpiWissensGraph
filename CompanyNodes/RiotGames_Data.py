@@ -1,6 +1,6 @@
 # id:35
 
-TITEL = "Riot Games Inc."
+TITEL = "Riot Games"
 
 CONTENT = ("## Beschreibung:\n"
            "Riot Games, mit Hauptsitz in West Los Angeles, ist ein US-amerikanischer Entwickler und Publisher von "

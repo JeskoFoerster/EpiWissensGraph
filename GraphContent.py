@@ -202,7 +202,7 @@ class GraphContent:
                             industry=[self.cybersecurity, self.information_technology])
         node_sollers_consulting = Node(SollersConsulting_Data.CONTENT, SollersConsulting_Data.TITEL,
                                        SollersConsulting_Data.IMAGE_NAME,
-                                       industry=[self.consulting, self.financial_services, self.information_technology])
+                                       industry=[self.consulting, self.financial_services, self.information_technology, self.insurance])
         node_spacex = Node(SpaceX_Data.CONTENT, SpaceX_Data.TITEL, SpaceX_Data.IMAGE_NAME,
                            industry=[self.aerospace, self.information_technology])
         node_tesla = Node(Tesla_Data.CONTENT, Tesla_Data.TITEL, Tesla_Data.IMAGE_NAME,

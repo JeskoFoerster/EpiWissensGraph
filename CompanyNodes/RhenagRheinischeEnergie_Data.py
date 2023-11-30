@@ -1,6 +1,6 @@
 # id:16
 
-TITEL = "Rhenag Rheinische Energie AG"
+TITEL = "Rhenag Rheinische Energie"
 
 CONTENT = (
     "## Beschreibung:\n"

@@ -1,6 +1,6 @@
 # id:38
 
-TITEL = "Action Deutschland GmbH"
+TITEL = "Action"
 
 CONTENT = ("## Beschreibung:\n"
            "Action, als führendes Einzelhandelsunternehmen, hat sich in den letzten drei Jahrzehnten einen festen "

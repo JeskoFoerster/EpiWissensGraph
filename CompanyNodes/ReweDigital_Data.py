@@ -1,6 +1,6 @@
 # id:10
 
-TITEL = "Rewe digital GmbH"
+TITEL = "Rewe digital"
 
 CONTENT = ("## Beschreibung:\n"
            "Rewe ist eine deutsche Einzelhandelsgruppe, die sich auf Lebensmittel und Supermärkte spezialisiert hat."

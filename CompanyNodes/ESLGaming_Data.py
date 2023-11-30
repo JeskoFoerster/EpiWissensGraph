@@ -1,6 +1,6 @@
 # id:26
 
-TITEL = "ESL Gaming GmbH"
+TITEL = "ESL Gaming"
 
 CONTENT = (
     "## Beschreibung:\n"

@@ -1,4 +1,4 @@
-TITEL = "parcIT GmbH"
+TITEL = "parcIT"
 
 CONTENT = ("## Beschreibung:\n"
            "Die parc IT GmbH ist ein führendes Unternehmen in der Entwicklung von innovativen Softwarelösungen im "

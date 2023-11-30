@@ -1,6 +1,6 @@
 # id:57
 
-TITEL = "Otto GmbH & Co KG"
+TITEL = "Otto"
 
 CONTENT = ( "## Beschreibung:\n"
             "OTTO ist Deutschlands größter Online-Shop und Marktplatz, der eine umfangreiche Auswahl an Produkten von "

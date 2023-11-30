@@ -1,6 +1,6 @@
 # id:40
 
-TITEL = "Lidl Stiftung & Co. KG"
+TITEL = "Lidl"
 
 CONTENT = ("## Beschreibung:\n"
            "Lidl, als nachhaltiger Frische-Discounter, steht für höchste Qualität zum besten Preis und bietet ein "
