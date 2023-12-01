@@ -14,7 +14,7 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program. If not, see <https://www.gnu.org/licenses/>.
 """
-
+import MainNode.MainNode_Data
 from GraphModel.Graph import Graph
 from GraphModel.Node import Node
 
@@ -30,6 +30,7 @@ from CompanyNodes import Action_Data, AldiNord_Data, Audi_Data, Axa_Data, Bmw_Da
     PferdWerkzeuge_Data, Porsche_Data, ReweDigital_Data, RhenagRheinischeEnergie_Data, RiotGames_Data, SAP_Data, \
     SchneiderElectric_Data, Secunet_Data, SollersConsulting_Data, SpaceX_Data, Tesla_Data, Volkswagen_Data, Zeiss_Data
 
+from MainNode import  MainNode_Data
 
 class GraphContent:
 
@@ -55,7 +56,7 @@ class GraphContent:
         self.connect_industry_with_node(graph)
 
     def create_main_node(self, graph: Graph):
-        main_note = Node("Das ist die Main-Node", "Main-Node", "example.png", radius=10, color=[153, 51, 255])
+        main_note = Node(MainNode_Data.CONTENT, MainNode.MainNode_Data.TITEL, radius=10, color=[153, 51, 255])
         graph.add_new_node_to_graph(main_note)
         self.main_node = main_note
 
