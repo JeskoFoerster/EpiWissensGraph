@@ -257,3 +257,4 @@ class GraphContent:
             if bool(node.industry):
                 for industry in node.industry:
                     industry.connect(node)
+ 
