@@ -56,7 +56,7 @@ class GraphContent:
         self.connect_industry_with_node(graph)
 
     def create_main_node(self, graph: Graph):
-        main_note = Node(MainNode_Data.CONTENT, MainNode.MainNode_Data.TITEL, radius=10, color=[153, 51, 255])
+        main_note = Node(MainNode_Data.CONTENT, MainNode.MainNode_Data.TITEL, MainNode_Data.IMAGE_NAME, radius=10, color=[153, 51, 255])
         graph.add_new_node_to_graph(main_note)
         self.main_node = main_note
 
