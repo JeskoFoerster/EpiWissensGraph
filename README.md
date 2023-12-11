@@ -25,3 +25,9 @@ Um unser Projekt nutzen zu können, benötigen Sie die folgenden Bibliotheken:
 - numpy ~=1.26.2
 
 Bitte stellen Sie sicher, dass diese Dependencies installiert sind, bevor Sie das EpiWissensGraph-Projekt verwenden. Viel Erfolg bei Ihrer Karriereplanung!
+
+
+## 
+Gruppe: NullPointerException
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/TH_Koeln_Logo.svg" alt="TH Köln Logo" width="100" height="100">
