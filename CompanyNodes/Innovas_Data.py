@@ -38,7 +38,7 @@ CONTENT = (
     
     "**Quelle:**\n"
     "-[1]https://www.innovas.de/\n"
-    "-[2]Gespräch mit Herrn Jörg Riebschläger\n"
+    "-[2]Gespräch mit Herrn Jörg Riebschläger(Mitarbeiter bei Innovas) \n"
     "-Bild: https://www.innovas.de/"
 )
 
