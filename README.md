@@ -1,185 +1,27 @@
-# EpiWissensGraph
-Wissens-Graphen für unser EPI Projekt.
+# EpiWissensGraph - Karriere-Pfadfinder: Dein Weg zum Job und Praktikum!
 
-Test Tom
-Test Jesko
-Test Nils commit 1
-Test Noah
-Test Elias 
-Test Nils
+## Projektbeschreibung
 
-Unser Thema "Unternehmen" wird um die Struktur, den  Aufbau sowie
-dem nutzen von Informatik behandeln.
+Willkommen beim EpiWissensGraph, einem innovativen Projekt, das Informatikstudierenden dabei hilft, den idealen Praktikumsplatz für ihr Praxissemester zu finden. Unser Ansatz besteht darin, eine umfassende Wissensgrafik zu erstellen, die als Wegweiser und Ressource dient. Diese Grafik bietet einen strukturierten Überblick über die verfügbaren Praktikumsmöglichkeiten sowohl in der Region Gummersbach und Umgebung als auch bei weltweit führenden Unternehmen verschiedener Branchen.
 
-Geplant ist bis jetzt;
-- schreiben über Praxissemster
-anrufen in Unternehmen um nachzufragen ob die 
-Praxissemester durchführen würden
-- wie Software in Unternehmen genutzt wird
-- wie Informatiker in nicht Informatik Unternehmen eingesetzt werden
+### Funktionsweise
 
-# Tipps vom Projekt:
+Die Wissensgrafik basiert auf einem Netzwerk von Informationen, das von einer zentralen 'Main Node' ausgeht. Diese Main Node bildet den Dreh- und Angelpunkt, von dem aus verschiedene Graphen zu einzelnen Branchen abzweigen. Jeder Zweig repräsentiert spezifische Branchen, und daran sind Unternehmen angeschlossen, die sowohl lokal als auch global agieren. Das Besondere an unserem Projekt ist die detaillierte Visualisierung der Beziehungen zwischen den Branchen und den jeweiligen Unternehmen.
 
-- "Für wissenschaftliche Veröffentlichungen (***Paper***) sind folgende "
-                                         "Angaben notwendig:\n\n"
-                                         "**- Autor(en) des Papers:**\n Die Namen der Autoren, in der "
-                                         "Reihenfolge, in der sie im Paper aufgeführt sind.\n\n"
-                                         "**- Jahr der Veröffentlichung:**\n Das Jahr, in dem das Paper "
-                                         "veröffentlicht wurde.\n\n"
-                                         "**- Titel des Papers:**\n Der vollständige Titel des Papers.\n\n"
-                                         "**- Titel der Zeitschrift oder Konferenz:**\n Der Name der Zeitschrift "
-                                         "oder der Konferenz, in der das Paper veröffentlicht wurde.\n\n"
-                                         "**- Bandnummer(Ausgabennummer):**\n Die Band- und Ausgabennummer der "
-                                         "Zeitschrift, in der das Paper erschien.\n\n"
-                                         "**- Seitenzahlen:**\n Die Seitenzahlen des Papers in der Zeitschrift."
-                                         "**- URL:**\n Falls das Paper online verfügbar ist, fügen Sie die URL "
-                                         "hinzu.\n\n"
-                                         "**- Zugriff am:**\n Das Datum, an dem Sie auf das Paper zugegriffen "
-                                         "haben, falls es online verfügbar ist.\n\n"
-                                         "\n## Beispiel\n"
-                                         "\n### Autor:\n"
-                                         "Dijkstra, E.W."
-                                         "\n### Veröffentlichungsjahr:\n"
-                                         "1972"
-                                         "\n### Titel:\n"
-                                         "The Humble Programmer"
-                                         "\n### In:\n"
-                                         "Communications of the ACM"
-                                         "\n### Bandnummer(Ausgabennummer):\n"
-                                         "15(10)"
-                                         "\n### Seitenzahlen:\n"
-                                         "859-866"
-- "## Anmerkung: \n"
-                                              "Dies ist Knoten für Literaturquellen. Hierbei sind folgende "
-                                              "Informationen für ***Bücher*** essenziell:\n\n"
-                                              "**- Autor:**\n Der vollständige Name des Autors.\n\n"
-                                              "**- Erscheinungsjahr:**\n Das Jahr, in dem das Buch veröffentlicht "
-                                              "wurde.\n\n"
-                                              "**- Titel des Buches:**\n Der vollständige Titel des Buches, eventuell "
-                                              "inklusive Untertitel.\n\n"
-                                              "**- Auflage:**\n Inhalt kann sich mit den verschieden Auflagen "
-                                              "eines Buches unterscheiden. Daher ist es wichtig die Auflage anzugeben, "
-                                              "auf die Sie sich beziehen. \n\n"
-                                              "**- Ort der Veröffentlichung:**\n Die Stadt, in der der Verlag seinen "
-                                              "Sitz hat."
-                                              "**- Verlag:**\n Der Name des Verlags.\n\n"
-                                              "\n## Beispiel\n"
-                                              "\n### Autor:\n"
-                                              "Martin, R.C."
-                                              "\n### Veröffentlichungsjahr:\n"
-                                              "2021"
-                                              "\n### Titel:\n"
-                                              "Clean Craftsmanship: Disciplines, Standards, and Ethics"
-                                              "\n### Auflage:\n"
-                                              "1. Auflage"
-                                              "\n### Ort:\n"
-                                              "Boston"
-                                              "\n### Verlag:\n"
-                                              "Addison-Wesley Professional"
-- "## Anmerkung: \n"
-                                          "Dies ist Knoten für Online-Quellen. In diesem konkreten Fall für Markdown "
-                                          "als Internet Quelle. Hierbei wird die offizielle Website des Entwicklers "
-                                          "von Markdown verwendet. Eine Website als Quelle ist legitim, wenn sie "
-                                          "bestimmte Kriterien der Glaubwürdigkeit und Zuverlässigkeit erfüllt. "
-                                          "Kriterien hierfür sind: \n\n"
-                                          "**- Expertise:**\n"
-                                          "Überprüfen Sie, wer hinter der Website steht. Ist es eine anerkannte "
-                                          "Institution, eine Bildungseinrichtung oder ein Experte auf dem Gebiet? \n\n"
-                                          "**- Aktualität:**\n"
-                                          "Überprüfen Sie das Datum der Veröffentlichung oder der letzten "
-                                          "Aktualisierung. Für viele Themen ist es wichtig, dass die Informationen "
-                                          "aktuell sind. \n\n"
-                                          "**- Genauigkeit und Zuverlässigkeit:**\n"
-                                          "Enthält die Website präzise Informationen, die mit anderen glaubwürdigen "
-                                          "Quellen übereinstimmen? Websites, die sorgfältig recherchiert und mit "
-                                          "Belegen untermauert sind, sind in der Regel vertrauenswürdiger.\n\n"
-                                          "**- Zweck und Objektivität:**\n"
-                                          "Beurteilen Sie den Zweck der Website. Ist sie darauf ausgerichtet, "
-                                          "objektive Informationen zu liefern, oder verfolgt sie kommerzielle, "
-                                          "politische oder ideologische Ziele? Objektive, unparteiische Quellen sind "
-                                          "generell vertrauenswürdiger.\n\n"
-                                          "**- Transparenz:**\n"
-                                          "Gute Quellen bieten oft Informationen über ihre Autoren, Finanzierung, "
-                                          "Mission und den Prozess der Inhaltsprüfung.\n\n"
-                                          "\n## Beispiel\n"
-                                          "\n### Autor:\n"
-                                          "Gruber, John"
-                                          "\n### Jahr:\n"
-                                          "2004"
-                                          "\n### Titel:\n"
-                                          "Markdown"
-                                          "\n### Verfügbar unter:\n"
-                                          "https://daringfireball.net/projects/markdown/"
-                                          "\n### Zugriff am:\n"
-                                          "11. November 2023"
--"Dies ist der Inhalt des Knotens. Ein Zeilenumbruch erfolgt automatisch. Wenn Sie "
-                           "jedoch manuell einen Absatz einfügen möchten ist dies über \n \n möglich.\n \n"
-                           " Sie haben die Möglichkeit Text als *kursiv* oder **fett** oder ***kombiniert*** "
-                           "hervorzuheben.\n\n"
-                           "Mit der ***Leertaste*** können Sie Ihren Graphen ausrichten lassen. Hierbei "
-                           "wirken zwei Arten von  simulierten Kräften. Knoten stoßen sich generell ab "
-                           "zum Zweck der visuellen Verteilung. Desto weiter Knoten voneinander entfernt "
-                           "sind desto schwächer ist Abstoßungskraft. Knoten die miteinander verbunden sind "
-                           "ziehen sich an. Desto weiter Knoten voneinander entfernt sind umso stärker ist "
-                           "die Anziehungskraft.\n\n"
-                           "Mit der ***T*** Taste können Sie die Titel der Knoten ein und ausblenden.\n\n"
-                           "Mit der ***Esc*** Taste können Sie die Anwendung schließen.\n\n"
-                           "Darüber hinaus können Sie Überschriften in drei Ebenen definieren. Text der als "
-                           "Überschrift markiert wird, wird bis zum nächsten Zeilenumbruch als solcher "
-                           "erkannt.\n"
-                           "\n# Das ist Ebene 1\n"
-                           "Nach einem Absatz wird eine Überschrift automatisch unterbrochen."
-                           "\n## Das ist Ebene 2\n"
-                           "Wie sie sehen ist diese Überschrift etwas kleiner."
-                           "\n### Und abschließend Ebene 3\n"
-                           "Und hier die kleinste Form.\n\n"
-                           "\n# Hinweis\n"
-                           "Wenn Ihr Graph wächst wird es immer schwieriger werden ihn zu "
-                           "erweitern und zu verändern. Hier entsteht die Verbindung zu Softwareprojekten. "
-                           "Zu beginn ist alles noch leicht nachvollziehbar und übersichtlich. Desto mehr "
-                           "Funktionalität Sie jedoch implementieren um so komplexer wird Ihr System. "
-                           "Es gibt immer mehr Inhalte und mehr Verbindungen dieser Inhalte. Erschaffen Sie "
-                           "hierbei keine geeignete Struktur erhalten Sie was wir Spaghetti-Code oder einen "
-                           "Big Ball of Mud nennen. Alles ist scheinbar miteinander verbunden und erzeugt "
-                           "Abhängigkeiten miteinander. Wenn Sie ein Teil verändern wollen müssen Sie auch "
-                           "alle anderen Teile verändern."
-                           "Ein Teil Ihrer Aufgabenstellung ist es mit dieser wachsenden Komplexität "
-                           "umzugehen. Sie entscheiden dabei als Team welchen Weg Sie einschlagen. Ziehen "
-                           "sie es vor die Inhalte hard zu coden also direkt in diese Methode zu schreiben? "
-                           "Werden Sie eigene Klassen und Methoden für die Bestandteile des Graphen anlegen? "
-                           "Schreiben Sie selbst einen Importer über den Sie Text Files einlesen können?"
-                           "Schreiben Sie ein User Interface um Texte direkt über die"
-                           "Applikation einzugeben? Denken Sie dabei auch an Modelle und wie Abstraktion "
-                           "Ihnen hilft Dinge zu vereinfachen. Planen Sie Ihren Graphen, teilen Sie "
-                           "Verantwortlichkeiten im Team auf, erstellen Sie Modelle und iterieren Sie um"
-                           "Ihren Wissensgraph inkrementell zu entwickeln."
-                           ""
-                           "\n# Bilder\n"
-                           "Zu jedem Knoten können Sie ein Bild hinzufügen. Hier für ist es notwendig "
-                           "das dieses Bild im Ordner Resources\Images abgelegt wird und der Name der Datei "
-                           "als dritter Parameter spezifiziert wird. Denken Sie daran Bilder in Git "
-                           "hinzuzufügen: Rechtsklick + Git + Add. Auch diese Bilder müssen Sie anschließend "
-                           "commiten und pushen."
-                           "\n # Verbindungen (Kanten) \n"
-                           "Knoten können über die Methode .connect mit einander verbunden werden. Dabei "
-                           "wird diese Methode auf dem Vater Knoten angewandt und das Kind als Parameter "
-                           "übergeben, \n\nz. B.: ***vater.connect(kind)***\n\n"
-                           "Wenn Sie im Graphen einen Knoten Verschieben, werden die Kinder immer "
-                           "mit verschoben. Sie können auch bidirektionale Verbindungen anlegen in dem Sie "
-                           "zusätzlich: *kind.connect(vater)* verwenden. Selektieren Sie einen Knoten, "
-                           "werden alle Kinder und Kindeskinder im Graphen optisch hervorgehoben."
-                           "\n # Menü \n"
-                           "Das Menü oben links stellt Ihnen zwei Optionen zur Verfügung."
-                           "\n ## Export \n"
-                           "Der Export erlaubt es Ihnen den aktuellen Graph als ZIP File zu exportieren. "
-                           "Dieser File ist Ihre Abgabe am Ende des Projektes. Neben dem Graphen werden auch "
-                           "alle Bilder im Image Ordner exportiert."
-                           "\n ## Import \n"
-                           "Der Import erlaubt es einen exportierten Graphen zu laden. Wenn Sie EPI im POW Modus "
-                           "besuchen können Sie auf diesem Wege die Graphen Ihrer Kommilitonen laden. Wenn Sie diese "
-                           "Funktion verwenden möchten, achten Sie bitte darauf, dass Bilder im "
-                           "importierten ZIP File in den Image Ordner Ihres Projektes importiert werden. "
-                           "Falls ein File mit dem identischen Namen im Image Ordner bereits vorhanden ist, "
-                           "wird der Name des importierten Bildes mit dem Namen Ihres Teams konkateniert/"
-                           "verbunden.\n\n",": Dies ist der Titel Ihres Knoten"
-                           "Help Knotens",
+### Grafische Darstellung der Unternehmenslandschaft
+
+Unsere Wissensgrafik geht über die einfache Auflistung von Branchen und Unternehmen hinaus. Wir haben zusätzliche Verbindungen eingefügt, die zwischen verschiedenen Branchen verlaufen. Diese Verbindungen ermöglichen es, Unternehmen zu identifizieren, die mehreren Branchen angehören, und verdeutlichen die vielfältigen Geschäftsbereiche, die von einem einzelnen Unternehmen abgedeckt werden.
+
+### Ziel
+
+Unser Ziel mit dieser Wissensgrafik ist es, eine benutzerfreundliche Plattform bereitzustellen, die es Informatikstudierenden erleichtert, gezielt nach Praktikumsplätzen zu suchen, die ihren Interessen und Fähigkeiten entsprechen. Die klare Darstellung der Unternehmenslandschaft und ihrer Verflechtungen innerhalb verschiedener Branchen soll den Studierenden einen wertvollen Einblick in die beruflichen Möglichkeiten verschaffen und ihnen helfen, ihre berufliche Laufbahn gezielt zu gestalten.
+
+## Dependencies
+
+Um unser Projekt nutzen zu können, benötigen Sie die folgenden Bibliotheken:
+
+- pygame ~=2.5.2
+- PyQt5 ~=5.15.10
+- numpy ~=1.26.2
+
+Bitte stellen Sie sicher, dass diese Dependencies installiert sind, bevor Sie das EpiWissensGraph-Projekt verwenden. Viel Erfolg bei Ihrer Karriereplanung!
